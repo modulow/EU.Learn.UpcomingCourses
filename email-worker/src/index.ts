@@ -11,8 +11,16 @@ const REQUIRED_COLUMNS = [
   "CREATOR_FIRSTNAME",
 ] as const;
 
-type Column = (typeof REQUIRED_COLUMNS)[number];
-type Course = Record<Column, string>;
+const PUBLIC_COLUMNS = [
+  "NAME",
+  "USERDEFINED_ID",
+  "STARTDATE",
+  "LASTUPDATER_FIRSTNAME",
+  "CREATOR_FIRSTNAME",
+] as const;
+
+type PublicColumn = (typeof PUBLIC_COLUMNS)[number];
+type Course = Record<PublicColumn, string>;
 
 interface Env {
   GITHUB_TOKEN: string;
@@ -100,7 +108,7 @@ function selectColumns(rows: Record<string, string>[]): Course[] {
   if (missing.length) throw new Error(`Missing required CSV columns: ${missing.join(", ")}`);
 
   return rows.map((row) => Object.fromEntries(
-    REQUIRED_COLUMNS.map((column) => [column, row[column]?.trim() ?? ""]),
+    PUBLIC_COLUMNS.map((column) => [column, row[column]?.trim() ?? ""]),
   ) as Course);
 }
 

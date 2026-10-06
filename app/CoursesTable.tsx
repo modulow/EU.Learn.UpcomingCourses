@@ -6,10 +6,7 @@ type Course = {
   NAME: string;
   USERDEFINED_ID: string;
   STARTDATE: string;
-  LASTUPDATER_LASTNAME: string;
   LASTUPDATER_FIRSTNAME: string;
-  LASTUPDATER_TITLE: string;
-  CREATOR_LASTNAME: string;
   CREATOR_FIRSTNAME: string;
 };
 
@@ -19,11 +16,8 @@ const columns: Array<{ key: CourseKey; label: string }> = [
   { key: "NAME", label: "Course name" },
   { key: "USERDEFINED_ID", label: "Course ID" },
   { key: "STARTDATE", label: "Start date" },
-  { key: "LASTUPDATER_LASTNAME", label: "Updater surname" },
-  { key: "LASTUPDATER_FIRSTNAME", label: "Updater first name" },
-  { key: "LASTUPDATER_TITLE", label: "Updater title" },
-  { key: "CREATOR_LASTNAME", label: "Creator surname" },
-  { key: "CREATOR_FIRSTNAME", label: "Creator first name" },
+  { key: "LASTUPDATER_FIRSTNAME", label: "Updated by" },
+  { key: "CREATOR_FIRSTNAME", label: "Created by" },
 ];
 
 function displayDate(value: string) {
