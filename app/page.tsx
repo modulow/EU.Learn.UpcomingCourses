@@ -1,55 +1,27 @@
-import { CoursesTable } from "./CoursesTable";
+import catalogue from "../public/data/courses.json";
 
+type Course = { NAME: string; USERDEFINED_ID: string; STARTDATE: string; LASTUPDATER_FIRSTNAME: string; CREATOR_FIRSTNAME: string };
+const columns = [
+  ["NAME", "Course name"], ["USERDEFINED_ID", "Course ID"], ["STARTDATE", "Start date"],
+  ["LASTUPDATER_FIRSTNAME", "Updated by"], ["CREATOR_FIRSTNAME", "Created by"],
+] as const;
+const styles = ":root{--blue:#0c4da2;--yellow:#fde021;--ink:#1e1e1e;--grey:#c8c8c8;--pale:#f3f7fc;--white:#fff;font-family:\"Myriad Pro\",Arial,sans-serif;color:var(--ink);background:#fff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}button,input{font:inherit}.container{width:min(1280px,calc(100% - 96px));margin:auto}.hero-inner{padding:20px 0 24px}.hero-copy{max-width:900px}.eyebrow{margin:0 0 14px;font-size:12px;line-height:1.6;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--blue)}.dialogue{display:flex;align-items:center;gap:12px}.dialogue:before{content:\"\";width:26px;height:3px;background:var(--blue)}h1{margin:0;font-size:clamp(36px,5.4vw,78px);line-height:1.04;letter-spacing:-2px;text-transform:uppercase}.intro-text{margin:10px 0 0;font-size:16px;line-height:1.5}.wayfinding{background:var(--blue);color:#fff}.wayfinding-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px 0}.wayfinding p{display:flex;flex-wrap:wrap;gap:8px 24px;margin:0;font-size:15px;font-weight:700}.wayfinding-number{color:var(--yellow)}.wayfinding-note{font-size:12px}.catalogue{padding:56px 0 80px}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:28px}h2{margin:0;font-size:clamp(24px,2.8vw,36px);line-height:1.15;letter-spacing:-1px;text-transform:uppercase}.section-note{max-width:430px;margin:0;color:#4b4b4b;font-size:13px;line-height:1.6}.panel{border:1px solid var(--grey);border-top:7px solid var(--yellow)}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:22px 24px;border-bottom:1px solid var(--grey)}.summary{display:flex;align-items:center;gap:14px;min-width:220px}.count{display:grid;place-items:center;min-width:56px;height:56px;padding:0 10px;background:var(--yellow);font-size:22px;font-weight:700}.summary-copy{color:#555;font-size:13px;line-height:1.3}.summary-copy strong{display:block;color:var(--blue);font-size:12px;letter-spacing:1.1px;text-transform:uppercase}.search{position:relative;flex:1;max-width:480px}.search input{width:100%;height:48px;border:2px solid var(--blue);padding:0 46px 0 16px;outline:none}.search input:focus{outline:3px solid var(--ink);outline-offset:3px;box-shadow:0 0 0 6px var(--yellow)}.search span{position:absolute;right:16px;top:10px;color:var(--blue);font-size:22px}.table-wrap{overflow:auto}table{width:100%;min-width:980px;border-collapse:collapse}th{position:sticky;top:0;z-index:1;padding:15px 16px;color:var(--blue);background:var(--pale);border-bottom:1px solid var(--grey);text-align:left;font-size:11px;letter-spacing:1px;text-transform:uppercase;white-space:nowrap}th button{display:flex;gap:7px;padding:0;border:0;background:transparent;color:inherit;cursor:pointer;font-weight:700;text-transform:inherit;letter-spacing:inherit}td{padding:16px;border-bottom:1px solid #e4e4e4;color:#3a3a3a;font-size:14px;line-height:1.45;vertical-align:top}tbody tr:hover{background:#fffde8}.course-name{min-width:270px;color:var(--ink);font-weight:700}.mono{color:var(--blue);font-family:ui-monospace,monospace;font-size:12px}.empty{padding:72px 24px;text-align:center;color:#555}.empty strong{display:block;margin-bottom:7px;color:var(--ink);font-size:18px}.error{border-left:4px solid #a71919;color:#a71919}.footer-note{padding:14px 24px;border-top:1px solid var(--grey);color:#555;background:var(--pale);font-size:12px}.status-dot{display:inline-block;width:8px;height:8px;margin-right:8px;background:var(--blue)}.site-footer{padding:42px 0;background:var(--blue);color:#fff}.site-footer .eyebrow{color:var(--yellow)}.footer-title{margin:0;font-size:clamp(24px,3vw,36px);line-height:1.2;font-weight:700}.footer-title span{color:var(--yellow)}@media(max-width:900px){.container{width:calc(100% - 64px)}.section-heading,.toolbar{align-items:stretch;flex-direction:column}.search{max-width:none}}@media(max-width:600px){.container{width:calc(100% - 40px)}.hero-inner{padding:16px 0 18px}h1{font-size:clamp(30px,9vw,44px);letter-spacing:-1px}.catalogue{padding:40px 0}.wayfinding-note{display:none}}";
+const clientScript = "(()=>{const input=document.getElementById('search');const tbody=document.getElementById('body');const count=document.getElementById('count');const summary=document.getElementById('summary');const rows=[...tbody.querySelectorAll('tr')];let sortDir=1,sortIndex=2;function visible(){const q=input.value.trim().toLowerCase();let n=0;rows.forEach(r=>{const show=!q||r.dataset.search.includes(q);r.hidden=!show;if(show)n++});count.textContent=String(n);summary.textContent=q?'of '+rows.length+' matching':'in the current file'}input.addEventListener('input',visible);document.querySelectorAll('[data-sort]').forEach(b=>b.addEventListener('click',()=>{const i=Number(b.dataset.sort);sortDir=i===sortIndex?-sortDir:1;sortIndex=i;rows.sort((a,c)=>sortDir*(a.cells[i].dataset.sort||a.cells[i].textContent).localeCompare(c.cells[i].dataset.sort||c.cells[i].textContent,undefined,{numeric:true,sensitivity:'base'})).forEach(r=>tbody.appendChild(r));document.querySelectorAll('[data-sort]').forEach((x,j)=>x.querySelector('span').textContent=j===i?(sortDir===1?'↑':'↓'):'↕') }));visible()})();";
+function displayDate(value: string) { const date = new Date(value); return Number.isNaN(date.getTime()) ? value : new Intl.DateTimeFormat("en-GB", { day: "2-digit", month: "short", year: "numeric" }).format(date); }
 export default function Home() {
-  return (
-    <>
-      <main id="top">
-        <section className="hero" aria-labelledby="page-title">
-          <div className="container hero-inner">
-            <div className="hero-copy">
-              <p className="eyebrow dialogue">Hello, learning colleague.</p>
-              <h1 id="page-title">EU Learn Today</h1>
-              <p className="intro-text">
-                <span>The clear catalogue, renewed every day.</span>
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="wayfinding" aria-label="Catalogue process">
-          <div className="container wayfinding-inner">
-            <p>
-              <span className="wayfinding-step"><span className="wayfinding-number">01</span> Receive.</span>
-              <span className="wayfinding-step"><span className="wayfinding-number">02</span> Replace.</span>
-              <span className="wayfinding-step"><span className="wayfinding-number">03</span> Learn.</span>
-            </p>
-            <span className="wayfinding-note">Daily updated</span>
-          </div>
-        </section>
-
-        <section className="catalogue" id="catalogue">
-          <div className="container">
-            <div className="section-heading">
-              <div>
-                <p className="eyebrow">Your daily learning offer</p>
-                <h2>Learning catalogue</h2>
-              </div>
-              <p className="section-note">Search any course. Select a heading to sort the table.</p>
-            </div>
-            <CoursesTable />
-          </div>
-        </section>
-      </main>
-
-      <footer className="site-footer">
-        <div className="container footer-inner">
-          <div className="footer-copy">
-            <p className="eyebrow">L&amp;D, a fresh start, every day</p>
-            <p className="footer-title">big on learning.<br /><span>Creativity on the side.</span></p>
-          </div>
-          <img className="footer-community" src="/EU.Learn.UpcomingCourses/footer-community.webp" alt="" width="1500" height="900" />
-        </div>
-      </footer>
-    </>
-  );
+  const courses = (catalogue.courses || []) as Course[];
+  const updated = catalogue.updatedAt ? new Intl.DateTimeFormat("en-GB", { dateStyle: "medium", timeStyle: "short" }).format(new Date(catalogue.updatedAt)) : null;
+  return <>
+    <style dangerouslySetInnerHTML={{ __html: styles }} />
+    <main id="top">
+      <section className="hero" aria-labelledby="page-title"><div className="container hero-inner"><div className="hero-copy"><p className="eyebrow dialogue">Hello, learning colleague.</p><h1 id="page-title">EU Learn Today</h1><p className="intro-text">The clear catalogue, renewed every day.</p></div></div></section>
+      <section className="wayfinding" aria-label="Catalogue process"><div className="container wayfinding-inner"><p><span className="wayfinding-step"><span className="wayfinding-number">01</span> Receive.</span><span className="wayfinding-step"><span className="wayfinding-number">02</span> Replace.</span><span className="wayfinding-step"><span className="wayfinding-number">03</span> Learn.</span></p><span className="wayfinding-note">Daily updated</span></div></section>
+      <section className="catalogue" id="catalogue"><div className="container"><div className="section-heading"><div><p className="eyebrow">Your daily learning offer</p><h2>Learning catalogue</h2></div><p className="section-note">Search any course. Select a heading to sort the table.</p></div>
+        <section className="panel" aria-label="Upcoming courses catalogue"><div className="toolbar"><div className="summary"><span className="count" id="count">{courses.length}</span><span className="summary-copy"><strong>Upcoming courses</strong><span id="summary">in the current file</span></span></div><label className="search"><span aria-hidden="true">⌕</span><input id="search" placeholder="Search by course, ID or person…" aria-label="Search courses" /></label></div>
+          <div className="table-wrap"><table><thead><tr>{columns.map(([key,label], index) => <th key={key}><button type="button" data-sort={index}>{label} <span aria-hidden="true">{key === "STARTDATE" ? "↑" : "↕"}</span></button></th>)}</tr></thead><tbody id="body">{courses.map((course,index) => <tr key={course.USERDEFINED_ID + "-" + index} data-search={Object.values(course).join(" ").toLowerCase()}>{columns.map(([key]) => <td key={key} data-sort={course[key]} className={key === "NAME" ? "course-name" : key === "USERDEFINED_ID" ? "mono" : undefined}>{key === "STARTDATE" ? displayDate(course[key]) : course[key] || "—"}</td>)}</tr>)}</tbody></table></div>
+          <div className="footer-note"><span className="status-dot" />{updated ? "Last replacement: " + updated : "Automatic daily replacement is ready"}</div>
+        </section></div></section>
+    </main><footer className="site-footer"><div className="container"><p className="eyebrow">L&amp;D, a fresh start, every day</p><p className="footer-title">big on learning.<br/><span>Creativity on the side.</span></p></div></footer>
+    <script dangerouslySetInnerHTML={{ __html: clientScript }} />
+  </>;
 }
