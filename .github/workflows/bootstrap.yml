@@ -19,6 +19,7 @@ jobs:
         run: |
           base64 --decode source.zip.b64 > source.zip
           unzip -o source.zip
+          git restore --source=HEAD -- .github/workflows/bootstrap.yml
           rm source.zip source.zip.b64
       - name: Commit project files
         run: |
