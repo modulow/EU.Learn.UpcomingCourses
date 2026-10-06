@@ -8,6 +8,10 @@
     "check": "tsc --noEmit"
   },
   "dependencies": {
-    "postal-mime": "^2.4.3"
+    "postal-mime": "2.4.3"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "wrangler": "4.92.0"
   }
 }
