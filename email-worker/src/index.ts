@@ -32,6 +32,19 @@ type IncomingEmail = {
 };
 
 export default {
+  async fetch(request: Request): Promise<Response> {
+    const incoming = new URL(request.url);
+    if (!incoming.pathname.startsWith("/EU.Learn.UpcomingCourses")) {
+      return new Response("Not found", { status: 404 });
+    }
+
+    const upstream = new URL(request.url);
+    upstream.protocol = "https:";
+    upstream.hostname = "eu-learn-upcoming-courses.pages.dev";
+    upstream.port = "";
+    return fetch(new Request(upstream, request));
+  },
+
   async email(message: IncomingEmail, env: Env): Promise<void> {
     if (message.to.toLowerCase() !== env.ALLOWED_RECIPIENT.toLowerCase()) {
       message.setReject("This address does not accept catalogue imports.");
