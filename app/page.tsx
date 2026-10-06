@@ -10,10 +10,8 @@ export default function Home() {
               <p className="eyebrow dialogue">Hello, learning colleague.</p>
               <h1 id="page-title">EU Learn Today</h1>
               <p className="intro-text">
-                <span>Explore the latest learning offer received by email.</span>
-                <span>One clear catalogue, automatically renewed every day.</span>
+                <span>The clear catalogue, renewed every day.</span>
               </p>
-              <a className="primary-link" href="#catalogue">Browse the catalogue <span aria-hidden="true">↓</span></a>
             </div>
             <div className="kiwi-feature" aria-hidden="true">
               <img className="kiwi-blob" src="/EU.Learn.UpcomingCourses/kiwi-blob.webp" alt="" width="1400" height="894" />
@@ -29,7 +27,7 @@ export default function Home() {
               <span className="wayfinding-step"><span className="wayfinding-number">02</span> Replace.</span>
               <span className="wayfinding-step"><span className="wayfinding-number">03</span> Learn.</span>
             </p>
-            <span className="wayfinding-note">Updated from the daily CSV file</span>
+            <span className="wayfinding-note">Daily updated</span>
           </div>
         </section>
 
@@ -40,7 +38,7 @@ export default function Home() {
                 <p className="eyebrow">Your daily learning offer</p>
                 <h2>Learning catalogue</h2>
               </div>
-              <p className="section-note">Search any course, identifier or colleague. Select a heading to sort the table.</p>
+              <p className="section-note">Search any course. Select a heading to sort the table.</p>
             </div>
             <CoursesTable />
           </div>
