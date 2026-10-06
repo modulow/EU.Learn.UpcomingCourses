@@ -38,7 +38,7 @@ jobs:
           rm -rf pages
           mkdir -p pages/assets
           cp -RL dist/client/. pages/
-          find -L dist -type f -path '*/assets/*' -exec cp -L {} pages/assets/ \;
+          find -L . -type f -path '*/assets/*' ! -path './node_modules/*' -print -exec cp -L {} pages/assets/ \;
           cp pages/EU.Learn.UpcomingCourses.html pages/index.html
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
