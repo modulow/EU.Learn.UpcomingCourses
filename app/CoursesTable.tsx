@@ -43,7 +43,7 @@ export function CoursesTable() {
   const [sort, setSort] = useState<{ key: CourseKey; direction: "asc" | "desc" }>({ key: "STARTDATE", direction: "asc" });
 
   useEffect(() => {
-    fetch("/api/courses", { cache: "no-store" })
+    fetch("/data/courses.json", { cache: "no-store" })
       .then(async (response) => {
         if (!response.ok) throw new Error("The daily catalogue is not available yet.");
         return response.json();
