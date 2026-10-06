@@ -34,7 +34,8 @@ type IncomingEmail = {
 export default {
   async fetch(request: Request): Promise<Response> {
     const incoming = new URL(request.url);
-    if (!incoming.pathname.startsWith("/EU.Learn.UpcomingCourses")) {
+    const basePath = "/EU.Learn.UpcomingCourses";
+    if (!incoming.pathname.startsWith(basePath)) {
       return new Response("Not found", { status: 404 });
     }
 
@@ -42,6 +43,13 @@ export default {
     upstream.protocol = "https:";
     upstream.hostname = "eu-learn-upcoming-courses.pages.dev";
     upstream.port = "";
+    const publicAsset = incoming.pathname.slice(`${basePath}/`.length);
+    if (
+      publicAsset.startsWith("data/") ||
+      ["kiwi-mark.webp", "kiwi-blob.webp", "kiwi-large.webp", "footer-community.webp", "og.png", "favicon.svg"].includes(publicAsset)
+    ) {
+      upstream.pathname = `/${publicAsset}`;
+    }
     return fetch(new Request(upstream, request));
   },
 
