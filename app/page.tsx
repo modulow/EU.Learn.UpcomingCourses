@@ -31,6 +31,16 @@ export default function Home() {
   const courses = (catalogue.courses || []) as Course[];
   const creators = [...new Set(courses.map((course) => course.CREATOR_FIRSTNAME || "Not specified"))]
     .sort((a, b) => a.localeCompare(b, "fr", { sensitivity: "base" }));
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const creatorCourseCounts = Object.fromEntries(creators.map((creator) => [
+    creator,
+    courses.filter((course) => {
+      const start = new Date(course.STARTDATE);
+      return !Number.isNaN(start.getTime()) && start >= today && (course.CREATOR_FIRSTNAME || "Not specified") === creator;
+    }).length,
+  ])) as Record<string, number>;
+  const maxCreatorCourseCount = Math.max(1, ...Object.values(creatorCourseCounts));
   const updated = catalogue.updatedAt
     ? new Intl.DateTimeFormat("en-GB", { dateStyle: "medium", timeStyle: "short" }).format(new Date(catalogue.updatedAt))
     : null;
@@ -69,8 +79,8 @@ export default function Home() {
           <div className="creator-stats-head"><h3>Courses by creator</h3><p>Upcoming course count</p></div>
           <div className="creator-stats-grid">
             {creators.map((creator) => <div className="creator-stat" data-creator-stat={creator.toLowerCase()} key={"stat-" + creator}>
-              <div className="creator-stat-line"><span className="creator-stat-name">{creator}</span><strong className="creator-stat-count">0</strong></div>
-              <div className="creator-stat-track"><div className="creator-stat-bar" /></div>
+              <div className="creator-stat-line"><span className="creator-stat-name">{creator}</span><strong className="creator-stat-count">{creatorCourseCounts[creator]}</strong></div>
+              <div className="creator-stat-track"><div className="creator-stat-bar" style={{ width: Math.round((creatorCourseCounts[creator] / maxCreatorCourseCount) * 100) + "%" }} /></div>
             </div>)}
           </div>
         </section>
