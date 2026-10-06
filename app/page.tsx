@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { CoursesTable } from "./CoursesTable";
 
 export default function Home() {
@@ -7,7 +6,7 @@ export default function Home() {
       <header className="site-header">
         <div className="container header-inner">
           <a className="brand" href="#top" aria-label="ep.europa.kiwi home">
-            <Image src="/EU.Learn.UpcomingCourses/kiwi-mark.webp" alt="" width={40} height={40} priority />
+            <img src="/EU.Learn.UpcomingCourses/kiwi-mark.webp" alt="" width="40" height="40" />
             <span className="brand-copy">
               <span className="brand-title">ep.europa.kiwi<span className="brand-underscore">_</span></span>
               <span className="brand-caption">An L&amp;D applications portal</span>
@@ -33,8 +32,8 @@ export default function Home() {
               <a className="primary-link" href="#catalogue">Browse the catalogue <span aria-hidden="true">↓</span></a>
             </div>
             <div className="kiwi-feature" aria-hidden="true">
-              <Image className="kiwi-blob" src="/EU.Learn.UpcomingCourses/kiwi-blob.webp" alt="" width={1400} height={894} />
-              <Image className="kiwi-art" src="/EU.Learn.UpcomingCourses/kiwi-large.webp" alt="" width={1400} height={898} />
+              <img className="kiwi-blob" src="/EU.Learn.UpcomingCourses/kiwi-blob.webp" alt="" width="1400" height="894" />
+              <img className="kiwi-art" src="/EU.Learn.UpcomingCourses/kiwi-large.webp" alt="" width="1400" height="898" />
             </div>
           </div>
         </section>
@@ -70,7 +69,7 @@ export default function Home() {
             <p className="eyebrow">L&amp;D, a fresh start, every day</p>
             <p className="footer-title">big on learning.<br /><span>Creativity on the side.</span></p>
           </div>
-          <Image className="footer-community" src="/EU.Learn.UpcomingCourses/footer-community.webp" alt="" width={1500} height={900} />
+          <img className="footer-community" src="/EU.Learn.UpcomingCourses/footer-community.webp" alt="" width="1500" height="900" />
         </div>
       </footer>
     </>
