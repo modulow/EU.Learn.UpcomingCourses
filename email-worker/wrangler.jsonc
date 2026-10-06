@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "eu-learn-upcoming-courses-email",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-06",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "GITHUB_REPO": "EU.Learn.UpcomingCourses",
+    "GITHUB_BRANCH": "main",
+    "GITHUB_DATA_PATH": "data/courses.json",
+    "ALLOWED_RECIPIENT": "learn.it@europas.kiwi"
+  }
+}
