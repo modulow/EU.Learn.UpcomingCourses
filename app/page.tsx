@@ -13,10 +13,6 @@ export default function Home() {
                 <span>The clear catalogue, renewed every day.</span>
               </p>
             </div>
-            <div className="kiwi-feature" aria-hidden="true">
-              <img className="kiwi-blob" src="/EU.Learn.UpcomingCourses/kiwi-blob.webp" alt="" width="1400" height="894" />
-              <img className="kiwi-art" src="/EU.Learn.UpcomingCourses/kiwi-large.webp" alt="" width="1400" height="898" />
-            </div>
           </div>
         </section>
 

@@ -21,21 +21,16 @@ img { display: block; max-width: 100%; height: auto; }
 .container { width: min(1280px, calc(100% - 96px)); margin-inline: auto; }
 
 .hero { position: relative; z-index: 0; overflow: hidden; }
-.hero-inner { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 80px; align-items: start; padding-top: 24px; }
-.hero-copy { position: relative; z-index: 3; min-width: 0; padding-bottom: 64px; }
+.hero-inner { padding-block: 20px 24px; }
+.hero-copy { position: relative; z-index: 3; max-width: 900px; min-width: 0; }
 .eyebrow { margin: 0 0 14px; font-size: 12px; line-height: 1.6; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--blue); }
 .dialogue { display: flex; align-items: center; gap: 12px; }
 .dialogue::before { content: ""; width: 26px; height: 3px; flex-shrink: 0; background: var(--blue); }
 h1 { margin: 0; font-size: clamp(36px, 5.4vw, 78px); line-height: 1.04; letter-spacing: -2px; font-weight: 700; text-transform: uppercase; }
-.intro-text { margin: 24px 0; font-size: 16px; line-height: 1.7; }
+.intro-text { margin: 10px 0 0; font-size: 16px; line-height: 1.5; }
 .intro-text > span { display: table; background: var(--white); padding-right: 8px; }
 .primary-link { display: inline-flex; align-items: center; justify-content: space-between; gap: 28px; min-height: 48px; padding: 14px 20px; background: var(--blue); color: var(--white); text-decoration: none; font-size: 14px; font-weight: 700; }
 .primary-link:hover { text-decoration: underline; text-underline-offset: 4px; }
-.kiwi-feature { position: relative; min-width: 0; height: 390px; }
-.kiwi-feature::after { content: ""; position: absolute; z-index: 2; right: 0; bottom: 32px; width: 80px; height: 7px; background: var(--yellow); }
-.kiwi-art, .kiwi-blob { position: absolute; max-width: none; height: auto; pointer-events: none; }
-.kiwi-art { z-index: 1; width: 125%; right: -8%; bottom: -90px; }
-.kiwi-blob { z-index: 0; width: 160%; right: -40%; bottom: -60px; }
 
 .wayfinding { position: relative; z-index: 2; background: var(--blue); color: var(--white); }
 .wayfinding-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-block: 20px; }
@@ -86,9 +81,6 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--ink); outline-o
 
 @media (max-width: 900px) {
   .container { width: calc(100% - 64px); }
-  .hero-inner { grid-template-columns: 1fr; gap: 8px; }
-  .hero-copy { padding-bottom: 20px; }
-  .kiwi-feature { max-width: 560px; width: 100%; height: 300px; margin-inline: auto; }
   .section-heading { align-items: start; flex-direction: column; gap: 16px; }
   .toolbar { align-items: stretch; flex-direction: column; }
   .search { max-width: none; }
@@ -97,11 +89,8 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--ink); outline-o
 @media (max-width: 600px) {
   .container { width: calc(100% - 40px); }
   .wayfinding-note { display: none; }
-  .hero-inner { padding-top: 20px; }
+  .hero-inner { padding-block: 16px 18px; }
   h1 { font-size: clamp(30px, 9vw, 44px); letter-spacing: -1px; }
-  .kiwi-feature { height: 230px; }
-  .kiwi-art { bottom: -70px; width: 120%; right: -10%; }
-  .kiwi-blob { bottom: -40px; width: 160%; right: -45%; }
   .wayfinding-inner { padding-block: 16px; }
   .catalogue { padding-block: 40px; }
   .toolbar { padding: 18px; }
