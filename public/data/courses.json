@@ -1,6 +1,2534 @@
 {
-  "updatedAt": null,
-  "sourceFile": null,
-  "rowCount": 0,
-  "courses": []
+  "updatedAt": "2026-10-06T12:29:05.937Z",
+  "sourceFile": "future_ep_courses_06-10-2026_05_00.csv",
+  "rowCount": 361,
+  "courses": [
+    {
+      "NAME": "Test - internal trainers",
+      "USERDEFINED_ID": "074241-EP-0001-EN-GB",
+      "STARTDATE": "2026-10-06 08:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "KAJA",
+      "CREATOR_FIRSTNAME": "KAJA"
+    },
+    {
+      "NAME": "MS Excel – Managing Your Data Lists",
+      "USERDEFINED_ID": "022383-EP-0010-EN-GB",
+      "STARTDATE": "2026-10-06 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Gartner HR Symposium/Xp 2026",
+      "USERDEFINED_ID": "029382-EP-0521-EN-GB",
+      "STARTDATE": "2026-10-06 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Unconscious bias - going beyond assumptions",
+      "USERDEFINED_ID": "023525-EP-0019-EN-GB",
+      "STARTDATE": "2026-10-06 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "Generative AI Advanced with EP GenAI Hub",
+      "USERDEFINED_ID": "075286-EP-0006-EN-GB",
+      "STARTDATE": "2026-10-06 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "FMS gestion de l'inventaire et transactions spécifiques (ASI, MGT, CATAGAO)",
+      "USERDEFINED_ID": "064889-EP-0011-FR-FR",
+      "STARTDATE": "2026-10-06 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "MS Word – Working with Long Documents",
+      "USERDEFINED_ID": "022379-EP-0010-EN-GB",
+      "STARTDATE": "2026-10-06 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Generative AI Advanced with EP GenAI Hub",
+      "USERDEFINED_ID": "075286-EP-0007-EN-GB",
+      "STARTDATE": "2026-10-06 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "The future of our energy: what is the EU’s policy?",
+      "USERDEFINED_ID": "052901-EP-0004-EN-GB",
+      "STARTDATE": "2026-10-07 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANGELA",
+      "CREATOR_FIRSTNAME": "ANGELA"
+    },
+    {
+      "NAME": "Tough talks - Mastering the Art of Difficult Conversations",
+      "USERDEFINED_ID": "071080-EP-0015-EN-GB",
+      "STARTDATE": "2026-10-07 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALIX",
+      "CREATOR_FIRSTNAME": "ALIX"
+    },
+    {
+      "NAME": "DG PART - MCM Demo session",
+      "USERDEFINED_ID": "079169-EP-0002-EN-GB",
+      "STARTDATE": "2026-10-07 15:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ÂNGELA MARIA",
+      "CREATOR_FIRSTNAME": "ÂNGELA MARIA"
+    },
+    {
+      "NAME": "Understanding the EU Budget",
+      "USERDEFINED_ID": "023699-EP-0022-EN-GB",
+      "STARTDATE": "2026-10-08 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "ANGELA"
+    },
+    {
+      "NAME": "Negotiation skills",
+      "USERDEFINED_ID": "078530-EP-0002-EN-GB",
+      "STARTDATE": "2026-10-08 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALIX",
+      "CREATOR_FIRSTNAME": "ALIX"
+    },
+    {
+      "NAME": "DG PART Directorate C Away day",
+      "USERDEFINED_ID": "076672-EP-0003-EN-GB",
+      "STARTDATE": "2026-10-08 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Presenting skills/Train the trainer",
+      "USERDEFINED_ID": "058200-EP-0016-EN-GB",
+      "STARTDATE": "2026-10-09 08:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "INES",
+      "CREATOR_FIRSTNAME": "INES"
+    },
+    {
+      "NAME": "Ten things you need to know about the European Parliament",
+      "USERDEFINED_ID": "054231-EP-0025-EN-GB",
+      "STARTDATE": "2026-10-09 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALESSANDRA",
+      "CREATOR_FIRSTNAME": "ALESSANDRA"
+    },
+    {
+      "NAME": "Team Walk svenska översättningsavdelningen",
+      "USERDEFINED_ID": "051746-EP-0064-EN-GB",
+      "STARTDATE": "2026-10-09 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Cybersecurity training for IT Security Correspondents",
+      "USERDEFINED_ID": "069421-EP-0034-EN-GB",
+      "STARTDATE": "2026-10-09 09:45:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELENA",
+      "CREATOR_FIRSTNAME": "ELENA"
+    },
+    {
+      "NAME": "Draft and schedule content on Social Media",
+      "USERDEFINED_ID": "078822-EP-0001-EN-GB",
+      "STARTDATE": "2026-10-09 16:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELENA",
+      "CREATOR_FIRSTNAME": "ELENA"
+    },
+    {
+      "NAME": "HEAT Training Refresher for EP staff",
+      "USERDEFINED_ID": "027336-EP-0020-EN-GB",
+      "STARTDATE": "2026-10-12 08:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "INES",
+      "CREATOR_FIRSTNAME": "INES"
+    },
+    {
+      "NAME": "Introduction to Public Procurement - financial aspects",
+      "USERDEFINED_ID": "023441-EP-0043-EN-GB",
+      "STARTDATE": "2026-10-12 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "Introduction to Power Automate and Power Apps",
+      "USERDEFINED_ID": "072340-EP-0008-EN-GB",
+      "STARTDATE": "2026-10-12 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "FMS for Financial initiating agents and ex ante verifiers",
+      "USERDEFINED_ID": "025096-EP-0055-EN-GB",
+      "STARTDATE": "2026-10-12 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Presenting with Impact",
+      "USERDEFINED_ID": "058200-EP-0012-EN-GB",
+      "STARTDATE": "2026-10-12 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "Team Walk DG TRAD Slovak unit",
+      "USERDEFINED_ID": "051746-EP-0053-EN-GB",
+      "STARTDATE": "2026-10-12 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Power BI Desktop - Advanced",
+      "USERDEFINED_ID": "069205-EP-0013-EN-GB",
+      "STARTDATE": "2026-10-12 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Course LDR520: Emerging Trends for Cyber Leaders: AI and Cloud",
+      "USERDEFINED_ID": "078404-EP-0002-EN-GB",
+      "STARTDATE": "2026-10-12 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "IOANNIS",
+      "CREATOR_FIRSTNAME": "IOANNIS"
+    },
+    {
+      "NAME": "Demystifying AI: from fundamentals to the future",
+      "USERDEFINED_ID": "062487-EP-0023-EN-GB",
+      "STARTDATE": "2026-10-12 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "VESELINA",
+      "CREATOR_FIRSTNAME": "VESELINA"
+    },
+    {
+      "NAME": "Guided tours of the European Parliament Contemporary Art Collection",
+      "USERDEFINED_ID": "062402-EP-0038-FR-FR",
+      "STARTDATE": "2026-10-12 11:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIA CAROLA",
+      "CREATOR_FIRSTNAME": "MARIA CAROLA"
+    },
+    {
+      "NAME": "EP Talks: Building Resilience and Staying Effective Under Pressure",
+      "USERDEFINED_ID": "058661-EP-0028-EN-GB",
+      "STARTDATE": "2026-10-12 12:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Generative AI Essentials",
+      "USERDEFINED_ID": "064631-EP-0117-EN-GB",
+      "STARTDATE": "2026-10-12 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Back to School and Back to University",
+      "USERDEFINED_ID": "038320-EP-0045-EN-GB",
+      "STARTDATE": "2026-10-12 13:45:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALESSANDRA",
+      "CREATOR_FIRSTNAME": "PAVLINA"
+    },
+    {
+      "NAME": "FMS for Reception agents",
+      "USERDEFINED_ID": "033160-EP-0028-EN-GB",
+      "STARTDATE": "2026-10-12 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Ten things you need to know about the European Parliament",
+      "USERDEFINED_ID": "054231-EP-0024-EN-GB",
+      "STARTDATE": "2026-10-12 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALESSANDRA",
+      "CREATOR_FIRSTNAME": "ALESSANDRA"
+    },
+    {
+      "NAME": "Managing Multigenerational Teams: Embracing Diversity for Effective Collaboration (DG FINS)",
+      "USERDEFINED_ID": "080200-EP-0002-EN-GB",
+      "STARTDATE": "2026-10-12 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANDER",
+      "CREATOR_FIRSTNAME": "VIVIANA"
+    },
+    {
+      "NAME": "DG EPRS EPOL Unit Learning Expedition",
+      "USERDEFINED_ID": "079651-EP-0001-EN-GB",
+      "STARTDATE": "2026-10-13 08:45:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANGELA",
+      "CREATOR_FIRSTNAME": "ANGELA"
+    },
+    {
+      "NAME": "Techniques de brainstorming - comment trouver de nouvelles idées",
+      "USERDEFINED_ID": "074501-EP-0006-FR-FR",
+      "STARTDATE": "2026-10-13 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Power BI Desktop - Advanced",
+      "USERDEFINED_ID": "069205-EP-0014-EN-GB",
+      "STARTDATE": "2026-10-13 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Representation - 16 stories of women in the European Parliament",
+      "USERDEFINED_ID": "030180-EP-0041-EN-GB",
+      "STARTDATE": "2026-10-13 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "KLARA",
+      "CREATOR_FIRSTNAME": "PAVLINA"
+    },
+    {
+      "NAME": "Assessing What Matters: Conducting Insightful Interviews on EP Core Competencies",
+      "USERDEFINED_ID": "071070-EP-0027-EN-GB",
+      "STARTDATE": "2026-10-13 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "KATRIN",
+      "CREATOR_FIRSTNAME": "KATRIN"
+    },
+    {
+      "NAME": "Leonardo – Anonymization/Pseudonymization tool",
+      "USERDEFINED_ID": "079806-EP-0001-EN-GB",
+      "STARTDATE": "2026-10-13 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "EP's evolving competences: Budget – Legislation – Scrutiny",
+      "USERDEFINED_ID": "069744-EP-0011-EN-GB",
+      "STARTDATE": "2026-10-13 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Reflecting on managerial competencies - BRU",
+      "USERDEFINED_ID": "077120-EP-0005-EN-GB",
+      "STARTDATE": "2026-10-13 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "IVANA",
+      "CREATOR_FIRSTNAME": "IVANA"
+    },
+    {
+      "NAME": "Content writing for newsletters and the web",
+      "USERDEFINED_ID": "080280-EP-0001-EN-GB",
+      "STARTDATE": "2026-10-13 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "KAREN",
+      "CREATOR_FIRSTNAME": "KAREN"
+    },
+    {
+      "NAME": "FMS for CAF agents",
+      "USERDEFINED_ID": "034180-EP-0026-EN-GB",
+      "STARTDATE": "2026-10-13 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Safe Office Game",
+      "USERDEFINED_ID": "069782-EP-0011-EN-GB",
+      "STARTDATE": "2026-10-13 15:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "IOANNIS",
+      "CREATOR_FIRSTNAME": "JASMINA"
+    },
+    {
+      "NAME": "WebContracts - Awards & Legal Commitments",
+      "USERDEFINED_ID": "078126-EP-0002-EN-GB",
+      "STARTDATE": "2026-10-14 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "Education, Jobs and Workers Mobility within the EU (Pilot)",
+      "USERDEFINED_ID": "080062-EP-0002-EN-GB",
+      "STARTDATE": "2026-10-14 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANGELA",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "FMS operational reports",
+      "USERDEFINED_ID": "025102-EP-0046-EN-GB",
+      "STARTDATE": "2026-10-14 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Introduction to Power Automate and Power Apps",
+      "USERDEFINED_ID": "072340-EP-0009-EN-GB",
+      "STARTDATE": "2026-10-14 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Budgetary cycle and budget implementation",
+      "USERDEFINED_ID": "023424-EP-0056-EN-GB",
+      "STARTDATE": "2026-10-14 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "EU Trade Policy and Geoeconomics",
+      "USERDEFINED_ID": "071430-EP-0003-EN-GB",
+      "STARTDATE": "2026-10-14 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANGELA",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "How to develop professionally - Your skills & motivations — 360° View",
+      "USERDEFINED_ID": "023474-EP-0024-EN-GB",
+      "STARTDATE": "2026-10-14 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Introduction to public contracts - legal aspects",
+      "USERDEFINED_ID": "055040-EP-0017-EN-GB",
+      "STARTDATE": "2026-10-14 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Imprest Accounts: Pay on behalf of the EP",
+      "USERDEFINED_ID": "028889-EP-0014-EN-GB",
+      "STARTDATE": "2026-10-14 10:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "Rules of Procedure (Only for Official Mail Unit, DG PRES)",
+      "USERDEFINED_ID": "031103-EP-0022-EN-GB",
+      "STARTDATE": "2026-10-14 10:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "FMS Flash Session: E-Invoicing Processes",
+      "USERDEFINED_ID": "079151-EP-0002-EN-GB",
+      "STARTDATE": "2026-10-14 10:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "Preventing harassment (for DG SAFE, Strassbourg)",
+      "USERDEFINED_ID": "070361-EP-0004-EN-GB",
+      "STARTDATE": "2026-10-14 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "Introduction to Diversity & Inclusion at work",
+      "USERDEFINED_ID": "064464-EP-0017-EN-GB",
+      "STARTDATE": "2026-10-14 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Jean Monnet Academy - TEAMBUILDING - DG TRAD - Quality Coordination Unit",
+      "USERDEFINED_ID": "080104-EP-0003-EN-GB",
+      "STARTDATE": "2026-10-14 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "OLIVIER",
+      "CREATOR_FIRSTNAME": "OLIVIER"
+    },
+    {
+      "NAME": "Managing Psychosocial Risk at Work: The European Parliament Approach",
+      "USERDEFINED_ID": "078861-CONS-0001-EN-GB",
+      "STARTDATE": "2026-10-14 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "MATTHIEU",
+      "CREATOR_FIRSTNAME": "MATTHIEU"
+    },
+    {
+      "NAME": "Web Accessibility - Principles in practice",
+      "USERDEFINED_ID": "074720-EP-0007-EN-GB",
+      "STARTDATE": "2026-10-14 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "ECIIA Conference 2026",
+      "USERDEFINED_ID": "029382-EP-0531-EN-GB",
+      "STARTDATE": "2026-10-15 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "BLANCA",
+      "CREATOR_FIRSTNAME": "BLANCA"
+    },
+    {
+      "NAME": "ERA - How to Handle Harassment Complaints in the EU Institutions",
+      "USERDEFINED_ID": "058125-EP-0057-EN-GB",
+      "STARTDATE": "2026-10-15 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ENRICO",
+      "CREATOR_FIRSTNAME": "ENRICO"
+    },
+    {
+      "NAME": "Professional supervision for confidential counsellors",
+      "USERDEFINED_ID": "077480-EP-0006-EN-GB",
+      "STARTDATE": "2026-10-15 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "FRANZISKA",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "Microsoft Teams Essentials 1: Getting Started with Teams",
+      "USERDEFINED_ID": "025865-EP-0101-EN-GB",
+      "STARTDATE": "2026-10-15 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIE",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Brainstorming techniques - how to come up with new ideas",
+      "USERDEFINED_ID": "074501-EP-0008-EN-GB",
+      "STARTDATE": "2026-10-15 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Introduction to EU Learn",
+      "USERDEFINED_ID": "062282-EP-0029-EN-GB",
+      "STARTDATE": "2026-10-15 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "PHILIPP",
+      "CREATOR_FIRSTNAME": "PHILIPP"
+    },
+    {
+      "NAME": "How to Handle Harassment Complaints in the EU Institutions",
+      "USERDEFINED_ID": "029382-EP-0534-EN-GB",
+      "STARTDATE": "2026-10-15 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "BLANCA",
+      "CREATOR_FIRSTNAME": "BLANCA"
+    },
+    {
+      "NAME": "Introduction aux marchés publics, aspects financiers",
+      "USERDEFINED_ID": "023441-EP-0042-FR-FR",
+      "STARTDATE": "2026-10-15 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "DG LINC-Comm&Outreach - AI for Communications",
+      "USERDEFINED_ID": "080312-EP-0001-EN-GB",
+      "STARTDATE": "2026-10-15 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Dealing effectively with lobbyists",
+      "USERDEFINED_ID": "023221-EP-0012-EN-GB",
+      "STARTDATE": "2026-10-15 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "Develop your personal brand",
+      "USERDEFINED_ID": "071969-EP-0003-EN-GB",
+      "STARTDATE": "2026-10-15 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "KAREN",
+      "CREATOR_FIRSTNAME": "KAREN"
+    },
+    {
+      "NAME": "How to develop professionally - Your career path — Self-reflection",
+      "USERDEFINED_ID": "023475-EP-0024-EN-GB",
+      "STARTDATE": "2026-10-15 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "ANGELA"
+    },
+    {
+      "NAME": "Microsoft Teams Essentials 2: Taking Teams to the Next Level",
+      "USERDEFINED_ID": "026255-EP-0096-EN-GB",
+      "STARTDATE": "2026-10-15 11:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIE",
+      "CREATOR_FIRSTNAME": "MARIE"
+    },
+    {
+      "NAME": "Professional supervision for confidential counsellors",
+      "USERDEFINED_ID": "077480-EP-0005-EN-GB",
+      "STARTDATE": "2026-10-15 13:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "FRANZISKA",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "Microsoft Teams: Getting started with OneDrive",
+      "USERDEFINED_ID": "028384-EP-0027-EN-GB",
+      "STARTDATE": "2026-10-15 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIE",
+      "CREATOR_FIRSTNAME": "MARIE"
+    },
+    {
+      "NAME": "Reflecting on managerial competencies - LUX",
+      "USERDEFINED_ID": "077120-EP-0007-EN-GB",
+      "STARTDATE": "2026-10-15 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "IVANA",
+      "CREATOR_FIRSTNAME": "IVANA"
+    },
+    {
+      "NAME": "The e-signature for everyone",
+      "USERDEFINED_ID": "058801-EP-0022-EN-GB",
+      "STARTDATE": "2026-10-15 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Microsoft Teams : Advanced Tips & tricks for Champions",
+      "USERDEFINED_ID": "028276-EP-0031-EN-GB",
+      "STARTDATE": "2026-10-15 15:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIE",
+      "CREATOR_FIRSTNAME": "MARIE"
+    },
+    {
+      "NAME": "EU Trade Policy and Geoeconomics - session reserved for interpreters",
+      "USERDEFINED_ID": "071430-EP-0005-EN-GB",
+      "STARTDATE": "2026-10-16 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANGELA",
+      "CREATOR_FIRSTNAME": "ANGELA"
+    },
+    {
+      "NAME": "Two hands to save a life",
+      "USERDEFINED_ID": "070968-EP-0005-EN-GB",
+      "STARTDATE": "2026-10-16 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "INES",
+      "CREATOR_FIRSTNAME": "INES"
+    },
+    {
+      "NAME": "Managing Multigenerational Teams: Embracing Diversity for Effective Collaboration (DG FINS)",
+      "USERDEFINED_ID": "080200-EP-0001-EN-GB",
+      "STARTDATE": "2026-10-16 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANDER",
+      "CREATOR_FIRSTNAME": "VIVIANA"
+    },
+    {
+      "NAME": "Chemicals handling",
+      "USERDEFINED_ID": "069492-EP-0003-EN-GB",
+      "STARTDATE": "2026-10-16 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALIX",
+      "CREATOR_FIRSTNAME": "ALIX"
+    },
+    {
+      "NAME": "How to develop professionally - AI to support your professional growth",
+      "USERDEFINED_ID": "023476-EP-0025-EN-GB",
+      "STARTDATE": "2026-10-16 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "ANGELA"
+    },
+    {
+      "NAME": "All you need to create good videos for your MEP",
+      "USERDEFINED_ID": "078821-EP-0001-EN-GB",
+      "STARTDATE": "2026-10-16 10:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELENA",
+      "CREATOR_FIRSTNAME": "ELENA"
+    },
+    {
+      "NAME": "Two hands to save a life",
+      "USERDEFINED_ID": "070968-EP-0006-EN-GB",
+      "STARTDATE": "2026-10-16 10:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "INES",
+      "CREATOR_FIRSTNAME": "INES"
+    },
+    {
+      "NAME": "Adobe Premiere Pro (step 1)",
+      "USERDEFINED_ID": "071501-EP-0005-EN-GB",
+      "STARTDATE": "2026-10-19 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Data Protection Refresher",
+      "USERDEFINED_ID": "029382-EP-0533-EN-GB",
+      "STARTDATE": "2026-10-19 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "BLANCA",
+      "CREATOR_FIRSTNAME": "BLANCA"
+    },
+    {
+      "NAME": "Imprest Accounts: Pay on behalf of the EP",
+      "USERDEFINED_ID": "028889-EP-0015-EN-GB",
+      "STARTDATE": "2026-10-19 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "Power BI Desktop - Introduction",
+      "USERDEFINED_ID": "069204-EP-0018-EN-GB",
+      "STARTDATE": "2026-10-19 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Team Walk DG EPRS - CPOL unit",
+      "USERDEFINED_ID": "051746-EP-0066-EN-GB",
+      "STARTDATE": "2026-10-19 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Tips and tricks for prompting with AI",
+      "USERDEFINED_ID": "078870-EP-0001-EN-GB",
+      "STARTDATE": "2026-10-19 11:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELENA",
+      "CREATOR_FIRSTNAME": "ELENA"
+    },
+    {
+      "NAME": "Advanced use of Excel for HR management",
+      "USERDEFINED_ID": "079643-EP-0001-EN-GB",
+      "STARTDATE": "2026-10-19 11:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Jean Monnet Academy - seminar for Assistants",
+      "USERDEFINED_ID": "026504-EP-0014-EN-GB",
+      "STARTDATE": "2026-10-19 12:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "BENEDETTA",
+      "CREATOR_FIRSTNAME": "BENEDETTA"
+    },
+    {
+      "NAME": "Generative AI Essentials",
+      "USERDEFINED_ID": "064631-EP-0118-EN-GB",
+      "STARTDATE": "2026-10-19 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "European Parliament induction programme - A day in Strasbourg",
+      "USERDEFINED_ID": "073110-EP-0002-EN-GB",
+      "STARTDATE": "2026-10-19 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALESSANDRA",
+      "CREATOR_FIRSTNAME": "ALESSANDRA"
+    },
+    {
+      "NAME": "Preventing harassment",
+      "USERDEFINED_ID": "023230-EP-0050-EN-GB",
+      "STARTDATE": "2026-10-19 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "MS Outlook - Manage your Mailbox",
+      "USERDEFINED_ID": "059002-EP-0012-EN-GB",
+      "STARTDATE": "2026-10-20 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Power BI Desktop - Introduction",
+      "USERDEFINED_ID": "069204-EP-0019-EN-GB",
+      "STARTDATE": "2026-10-20 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "MS Word – Using Styles & Templates",
+      "USERDEFINED_ID": "022380-EP-0009-EN-GB",
+      "STARTDATE": "2026-10-20 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "MS Excel – Mastering Functions in Excel",
+      "USERDEFINED_ID": "022384-EP-0014-EN-GB",
+      "STARTDATE": "2026-10-20 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "MS Outlook - Tips & Tricks",
+      "USERDEFINED_ID": "059020-EP-0012-EN-GB",
+      "STARTDATE": "2026-10-20 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Tough talks - Mastering the Art of Difficult Conversations",
+      "USERDEFINED_ID": "071080-EP-0016-EN-GB",
+      "STARTDATE": "2026-10-20 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALIX",
+      "CREATOR_FIRSTNAME": "ALIX"
+    },
+    {
+      "NAME": "Explore the buildings of the European Parliament in Strasbourg - Walking tour for APAs",
+      "USERDEFINED_ID": "028361-EP-0066-EN-GB",
+      "STARTDATE": "2026-10-20 17:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALESSANDRA",
+      "CREATOR_FIRSTNAME": "ALESSANDRA"
+    },
+    {
+      "NAME": "Cybersecurity Awareness",
+      "USERDEFINED_ID": "068520-EP-0093-EN-GB",
+      "STARTDATE": "2026-10-21 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIE",
+      "CREATOR_FIRSTNAME": "Meliina"
+    },
+    {
+      "NAME": "Dealing with VAT exemption in the EP",
+      "USERDEFINED_ID": "063400-EP-0010-EN-GB",
+      "STARTDATE": "2026-10-21 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "Web Accessibility - Principles in practice",
+      "USERDEFINED_ID": "074720-EP-0008-EN-GB",
+      "STARTDATE": "2026-10-21 10:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Programme Management Essentials",
+      "USERDEFINED_ID": "065048-EP-0007-EN-GB",
+      "STARTDATE": "2026-10-22 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "L&D Talks",
+      "USERDEFINED_ID": "029382-EP-0547-EN-GB",
+      "STARTDATE": "2026-10-22 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "BLANCA",
+      "CREATOR_FIRSTNAME": "BLANCA"
+    },
+    {
+      "NAME": "Essentials of data protection in the European Parliament",
+      "USERDEFINED_ID": "058680-EP-0020-EN-GB",
+      "STARTDATE": "2026-10-22 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "DG PERS: Directorate D Away Day",
+      "USERDEFINED_ID": "079375-EP-0001-EN-GB",
+      "STARTDATE": "2026-10-22 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "KAREN",
+      "CREATOR_FIRSTNAME": "KAREN"
+    },
+    {
+      "NAME": "Reflecting on managerial competencies - LUX",
+      "USERDEFINED_ID": "077120-EP-0006-EN-GB",
+      "STARTDATE": "2026-10-22 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "IVANA",
+      "CREATOR_FIRSTNAME": "IVANA"
+    },
+    {
+      "NAME": "Guided tours of the European Parliament Contemporary Art Collection",
+      "USERDEFINED_ID": "062402-EP-0033-EN-GB",
+      "STARTDATE": "2026-10-22 16:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIA CAROLA",
+      "CREATOR_FIRSTNAME": "MARIA CAROLA"
+    },
+    {
+      "NAME": "Copyright Guidance for AI Users: A Primer",
+      "USERDEFINED_ID": "079783-EP-0001-EN-GB",
+      "STARTDATE": "2026-10-23 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNA",
+      "CREATOR_FIRSTNAME": "ANNA"
+    },
+    {
+      "NAME": "ERA - AI and Public Accountability. Applying the EU AI Act: Risk and Responsibilities",
+      "USERDEFINED_ID": "058125-EP-0060-EN-GB",
+      "STARTDATE": "2026-10-26 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ENRICO",
+      "CREATOR_FIRSTNAME": "ENRICO"
+    },
+    {
+      "NAME": "VO Adaptation with Yella Umbrella",
+      "USERDEFINED_ID": "080346-EP-0001-EN-GB",
+      "STARTDATE": "2026-10-26 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "IOANNIS",
+      "CREATOR_FIRSTNAME": "IOANNIS"
+    },
+    {
+      "NAME": "Powers of Scrutiny of the European Parliament",
+      "USERDEFINED_ID": "071273-EP-0009-EN-GB",
+      "STARTDATE": "2026-10-26 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Legislative Amendments from A to Z: drafting, tabling, voting",
+      "USERDEFINED_ID": "029006-EP-0020-EN-GB",
+      "STARTDATE": "2026-10-26 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Understanding the EU Budget",
+      "USERDEFINED_ID": "058777-EP-0012-EN-GB",
+      "STARTDATE": "2026-10-26 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANGELA",
+      "CREATOR_FIRSTNAME": "ANGELA"
+    },
+    {
+      "NAME": "FMS Management Reporting - SAP Analytics Cloud (SAC) basic",
+      "USERDEFINED_ID": "071924-EP-0006-EN-GB",
+      "STARTDATE": "2026-10-26 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "INES"
+    },
+    {
+      "NAME": "Jean Monnet Academy - seminar for newly appointed Assistants",
+      "USERDEFINED_ID": "026855-EP-0016-EN-GB",
+      "STARTDATE": "2026-10-26 12:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "GÉRALDINE",
+      "CREATOR_FIRSTNAME": "BENEDETTA"
+    },
+    {
+      "NAME": "Generative AI Essentials",
+      "USERDEFINED_ID": "064631-EP-0119-EN-GB",
+      "STARTDATE": "2026-10-26 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Regulation and Integration of Renewable Energy",
+      "USERDEFINED_ID": "057423-EP-0087-EN-GB",
+      "STARTDATE": "2026-10-27 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "NIKOLINA",
+      "CREATOR_FIRSTNAME": "NIKOLINA"
+    },
+    {
+      "NAME": "Listen, speak and support as a mentor",
+      "USERDEFINED_ID": "065992-EP-0018-EN-GB",
+      "STARTDATE": "2026-10-27 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "FRANZISKA",
+      "CREATOR_FIRSTNAME": "FRANZISKA"
+    },
+    {
+      "NAME": "SharePoint for End Users",
+      "USERDEFINED_ID": "065420-EP-0023-EN-GB",
+      "STARTDATE": "2026-10-27 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "EP Powers and EU policies",
+      "USERDEFINED_ID": "030741-EP-0017-EN-GB",
+      "STARTDATE": "2026-10-27 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANGELA",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Fostering a positive workplace at the EP - Managing staff ethically and preventing harassment situations",
+      "USERDEFINED_ID": "053823-EP-0058-EN-GB",
+      "STARTDATE": "2026-10-27 09:15:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIVIANA",
+      "CREATOR_FIRSTNAME": "VIVIANA"
+    },
+    {
+      "NAME": "Data Protection - Role of the Controllers",
+      "USERDEFINED_ID": "070388-EP-0006-EN-GB",
+      "STARTDATE": "2026-10-27 10:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "SharePoint for Power Users",
+      "USERDEFINED_ID": "065422-EP-0023-EN-GB",
+      "STARTDATE": "2026-10-27 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "From boomers to Gen Z: working together in multigenerational teams - DG FINS session",
+      "USERDEFINED_ID": "079640-EP-0002-EN-GB",
+      "STARTDATE": "2026-10-27 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Project Management - Artefacts, Tools & Techniques",
+      "USERDEFINED_ID": "063004-EP-0008-EN-GB",
+      "STARTDATE": "2026-10-28 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Generative AI Advanced with EP GenAI Hub",
+      "USERDEFINED_ID": "075286-EP-0008-EN-GB",
+      "STARTDATE": "2026-10-28 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "The e-signature for everyone",
+      "USERDEFINED_ID": "058801-EP-0023-EN-GB",
+      "STARTDATE": "2026-10-28 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Essentials of data protection in the European Parliament",
+      "USERDEFINED_ID": "058680-EP-0018-EN-GB",
+      "STARTDATE": "2026-10-28 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Generative AI Essentials",
+      "USERDEFINED_ID": "064631-EP-0120-EN-GB",
+      "STARTDATE": "2026-10-28 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Generative AI Advanced with EP GenAI Hub",
+      "USERDEFINED_ID": "075286-EP-0009-EN-GB",
+      "STARTDATE": "2026-10-28 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Jean Monnet Academy - TEAMBUILDING - DG FINS - Financing of Political Groups and Non-Attached Members Unit TB",
+      "USERDEFINED_ID": "080104-EP-0002-EN-GB",
+      "STARTDATE": "2026-10-28 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "BENEDETTA",
+      "CREATOR_FIRSTNAME": "OLIVIER"
+    },
+    {
+      "NAME": "GEDA Online Course",
+      "USERDEFINED_ID": "023489-EP-0112-EN-GB",
+      "STARTDATE": "2026-10-29 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Budgetary cycle and budget implementation (DG FINS Trainees)",
+      "USERDEFINED_ID": "061381-EP-0077-EN-GB",
+      "STARTDATE": "2026-10-29 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "Train the Trainer",
+      "USERDEFINED_ID": "073542-EP-0001-EN-GB",
+      "STARTDATE": "2026-10-29 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Innovation and Competitiveness",
+      "USERDEFINED_ID": "080064-EP-0003-EN-GB",
+      "STARTDATE": "2026-10-29 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Generative AI Advanced with EP GenAI Hub",
+      "USERDEFINED_ID": "075286-EP-0010-EN-GB",
+      "STARTDATE": "2026-10-29 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Generative AI Advanced with EP GenAI Hub",
+      "USERDEFINED_ID": "075286-EP-0011-EN-GB",
+      "STARTDATE": "2026-10-29 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "How to facilitate online",
+      "USERDEFINED_ID": "070784-EP-0019-EN-GB",
+      "STARTDATE": "2026-10-29 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "PHILIPP",
+      "CREATOR_FIRSTNAME": "PHILIPP"
+    },
+    {
+      "NAME": "VO Adaptation with Yella Umbrella",
+      "USERDEFINED_ID": "080346-EP-0002-EN-GB",
+      "STARTDATE": "2026-10-30 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "IOANNIS",
+      "CREATOR_FIRSTNAME": "IOANNIS"
+    },
+    {
+      "NAME": "Managing Multigenerational Teams: Embracing Diversity for Effective Collaboration",
+      "USERDEFINED_ID": "071067-EP-0004-EN-GB",
+      "STARTDATE": "2026-11-03 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIVIANA",
+      "CREATOR_FIRSTNAME": "VIVIANA"
+    },
+    {
+      "NAME": "La gestion du risque amiante",
+      "USERDEFINED_ID": "029382-EP-0537-EN-GB",
+      "STARTDATE": "2026-11-03 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "BLANCA",
+      "CREATOR_FIRSTNAME": "BLANCA"
+    },
+    {
+      "NAME": "ERA -  Enhancing Data Protection through Technology",
+      "USERDEFINED_ID": "058125-EP-0061-EN-GB",
+      "STARTDATE": "2026-11-03 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ENRICO",
+      "CREATOR_FIRSTNAME": "ENRICO"
+    },
+    {
+      "NAME": "EU Cohesion Policy Achievements and Perspectives (TRAD colleagues ONLY)",
+      "USERDEFINED_ID": "076220-EP-0002-EN-GB",
+      "STARTDATE": "2026-11-04 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANGELA",
+      "CREATOR_FIRSTNAME": "ANGELA"
+    },
+    {
+      "NAME": "Fostering performance as a manager",
+      "USERDEFINED_ID": "071075-EP-0007-EN-GB",
+      "STARTDATE": "2026-11-04 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIVIANA",
+      "CREATOR_FIRSTNAME": "VIVIANA"
+    },
+    {
+      "NAME": "EP's evolving competences: Budget – Legislation – Scrutiny",
+      "USERDEFINED_ID": "069744-EP-0013-EN-GB",
+      "STARTDATE": "2026-11-04 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Resilience at Work: Boost your resilience and thrive under pressure",
+      "USERDEFINED_ID": "064285-EP-0017-EN-GB",
+      "STARTDATE": "2026-11-04 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "INES",
+      "CREATOR_FIRSTNAME": "KAREN"
+    },
+    {
+      "NAME": "Personal Data Breaches - identify and act",
+      "USERDEFINED_ID": "061923-EP-0010-EN-GB",
+      "STARTDATE": "2026-11-04 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "DG LINC Managers' Away Day",
+      "USERDEFINED_ID": "080120-EP-0001-EN-GB",
+      "STARTDATE": "2026-11-05 08:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANGELA",
+      "CREATOR_FIRSTNAME": "ANGELA"
+    },
+    {
+      "NAME": "Assessing What Matters: Conducting Insightful Interviews on EP Core Competencies",
+      "USERDEFINED_ID": "071070-EP-0028-EN-GB",
+      "STARTDATE": "2026-11-05 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "KATRIN",
+      "CREATOR_FIRSTNAME": "KATRIN"
+    },
+    {
+      "NAME": "Reflecting on managerial competencies",
+      "USERDEFINED_ID": "077121-EP-0002-EN-GB",
+      "STARTDATE": "2026-11-05 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "IVANA",
+      "CREATOR_FIRSTNAME": "IVANA"
+    },
+    {
+      "NAME": "Generative AI Essentials",
+      "USERDEFINED_ID": "064631-EP-0121-EN-GB",
+      "STARTDATE": "2026-11-05 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Cybersecurity training for IT Security Correspondents",
+      "USERDEFINED_ID": "069421-EP-0035-EN-GB",
+      "STARTDATE": "2026-11-06 09:45:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELENA",
+      "CREATOR_FIRSTNAME": "ELENA"
+    },
+    {
+      "NAME": "Voice Over training in Spanish",
+      "USERDEFINED_ID": "080107-EP-0001-EN-GB",
+      "STARTDATE": "2026-11-09 08:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALIX",
+      "CREATOR_FIRSTNAME": "ALIX"
+    },
+    {
+      "NAME": "European Parliament's Induction Programme",
+      "USERDEFINED_ID": "071127-EP-0012-EN-GB",
+      "STARTDATE": "2026-11-09 08:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "What's New in Windows 11?",
+      "USERDEFINED_ID": "073000-EP-0021-EN-GB",
+      "STARTDATE": "2026-11-09 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "Meliina"
+    },
+    {
+      "NAME": "RELOP Understanding personality and workstyles and its impact on the client",
+      "USERDEFINED_ID": "076671-EP-0001-EN-GB",
+      "STARTDATE": "2026-11-09 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Microsoft Teams Essentials 1: Getting Started with Teams",
+      "USERDEFINED_ID": "025865-EP-0102-EN-GB",
+      "STARTDATE": "2026-11-09 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIE",
+      "CREATOR_FIRSTNAME": "MARIE"
+    },
+    {
+      "NAME": "Protocol and etiquette",
+      "USERDEFINED_ID": "075243-EP-0002-EN-GB",
+      "STARTDATE": "2026-11-09 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "INES",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "Voice coaching and writing - Swedish and Finnish",
+      "USERDEFINED_ID": "079627-EP-0001-EN-GB",
+      "STARTDATE": "2026-11-09 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALIX",
+      "CREATOR_FIRSTNAME": "ALIX"
+    },
+    {
+      "NAME": "Powers of Scrutiny of the European Parliament",
+      "USERDEFINED_ID": "080440-EP-0001-EN-GB",
+      "STARTDATE": "2026-11-09 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "VO Adaptation with Yella Umbrella",
+      "USERDEFINED_ID": "080346-EP-0003-EN-GB",
+      "STARTDATE": "2026-11-09 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "IOANNIS",
+      "CREATOR_FIRSTNAME": "IOANNIS"
+    },
+    {
+      "NAME": "Introduction to Power Automate and Power Apps",
+      "USERDEFINED_ID": "072340-EP-0012-EN-GB",
+      "STARTDATE": "2026-11-09 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "What's New in Windows 11?",
+      "USERDEFINED_ID": "073000-EP-0020-EN-GB",
+      "STARTDATE": "2026-11-09 11:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "Meliina"
+    },
+    {
+      "NAME": "Microsoft Teams Essentials 2: Taking Teams to the Next Level",
+      "USERDEFINED_ID": "026255-EP-0097-EN-GB",
+      "STARTDATE": "2026-11-09 11:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIE",
+      "CREATOR_FIRSTNAME": "MARIE"
+    },
+    {
+      "NAME": "Jean Monnet Academy - Our House",
+      "USERDEFINED_ID": "028258-EP-0022-EN-GB",
+      "STARTDATE": "2026-11-09 12:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "GÉRALDINE",
+      "CREATOR_FIRSTNAME": "BENEDETTA"
+    },
+    {
+      "NAME": "Generative AI Essentials",
+      "USERDEFINED_ID": "064631-EP-0122-EN-GB",
+      "STARTDATE": "2026-11-09 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Introduction to Diversity and Inclusion at work",
+      "USERDEFINED_ID": "064464-EP-0015-EN-GB",
+      "STARTDATE": "2026-11-09 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Microsoft Teams: How to Organise Successful Meetings in Teams",
+      "USERDEFINED_ID": "028300-EP-0033-EN-GB",
+      "STARTDATE": "2026-11-09 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIE",
+      "CREATOR_FIRSTNAME": "MARIE"
+    },
+    {
+      "NAME": "Public speaking : catching and keeping your audience attention",
+      "USERDEFINED_ID": "071661-EP-0013-EN-GB",
+      "STARTDATE": "2026-11-09 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Representation - 16 stories of women in the European Parliament",
+      "USERDEFINED_ID": "030180-EP-0045-EN-GB",
+      "STARTDATE": "2026-11-09 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALESSANDRA",
+      "CREATOR_FIRSTNAME": "ALESSANDRA"
+    },
+    {
+      "NAME": "Microsoft Teams:  Collaborate on Documents in Teams",
+      "USERDEFINED_ID": "028495-EP-0038-EN-GB",
+      "STARTDATE": "2026-11-09 15:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIE",
+      "CREATOR_FIRSTNAME": "MARIE"
+    },
+    {
+      "NAME": "Assessing What Matters: Conducting Insightful Interviews on EP Core Competencies",
+      "USERDEFINED_ID": "071070-EP-0029-EN-GB",
+      "STARTDATE": "2026-11-10 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "KATRIN",
+      "CREATOR_FIRSTNAME": "KATRIN"
+    },
+    {
+      "NAME": "Resilience at Work: Boost your resilience and thrive under pressure",
+      "USERDEFINED_ID": "064285-EP-0020-EN-GB",
+      "STARTDATE": "2026-11-10 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "KAREN",
+      "CREATOR_FIRSTNAME": "KAREN"
+    },
+    {
+      "NAME": "Presenting with Impact",
+      "USERDEFINED_ID": "058200-EP-0014-EN-GB",
+      "STARTDATE": "2026-11-10 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "VO Adaptation with Yella Umbrella",
+      "USERDEFINED_ID": "080346-EP-0004-EN-GB",
+      "STARTDATE": "2026-11-10 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "IOANNIS",
+      "CREATOR_FIRSTNAME": "IOANNIS"
+    },
+    {
+      "NAME": "Mental Health First Aid course",
+      "USERDEFINED_ID": "031467-EP-0050-EN-GB",
+      "STARTDATE": "2026-11-10 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "Data protection and HR",
+      "USERDEFINED_ID": "037982-EP-0011-EN-GB",
+      "STARTDATE": "2026-11-10 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "DG PRES DLA - Smart communication workshop",
+      "USERDEFINED_ID": "079193-EP-0002-EN-GB",
+      "STARTDATE": "2026-11-10 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Transfer Impact Assessment in the European Parliament (TIA)",
+      "USERDEFINED_ID": "071681-EP-0006-EN-GB",
+      "STARTDATE": "2026-11-10 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Clear language essentials",
+      "USERDEFINED_ID": "069125-EP-0009-EN-GB",
+      "STARTDATE": "2026-11-10 10:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANGELA",
+      "CREATOR_FIRSTNAME": "ANGELA"
+    },
+    {
+      "NAME": "How to develop professionally - Your working style — MBTI",
+      "USERDEFINED_ID": "023472-EP-0032-EN-GB",
+      "STARTDATE": "2026-11-11 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Let's talk ethics",
+      "USERDEFINED_ID": "023815-EP-0051-EN-GB",
+      "STARTDATE": "2026-11-11 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Introduction to public contracts - legal aspects",
+      "USERDEFINED_ID": "055040-EP-0020-EN-GB",
+      "STARTDATE": "2026-11-11 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "Data Protection - Role of the Controllers",
+      "USERDEFINED_ID": "070388-EP-0009-EN-GB",
+      "STARTDATE": "2026-11-11 10:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Règlement des missions au PE et application eMiss",
+      "USERDEFINED_ID": "058820-EP-0011-FR-FR",
+      "STARTDATE": "2026-11-11 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "EP Missions Rules and eMiss application",
+      "USERDEFINED_ID": "058820-EP-0010-EN-GB",
+      "STARTDATE": "2026-11-11 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Digital Basics for Newcomers at the EP",
+      "USERDEFINED_ID": "064812-EP-0028-EN-GB",
+      "STARTDATE": "2026-11-11 14:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "KAJA",
+      "CREATOR_FIRSTNAME": "KAJA"
+    },
+    {
+      "NAME": "MS Word – Tips & Tricks",
+      "USERDEFINED_ID": "022360-EP-0019-EN-GB",
+      "STARTDATE": "2026-11-12 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Advanced Life Support",
+      "USERDEFINED_ID": "029382-EP-0529-EN-GB",
+      "STARTDATE": "2026-11-12 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Navigate your emotional intelligence",
+      "USERDEFINED_ID": "062202-EP-0021-EN-GB",
+      "STARTDATE": "2026-11-12 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "KAREN",
+      "CREATOR_FIRSTNAME": "KAREN"
+    },
+    {
+      "NAME": "Data protection in public procurement",
+      "USERDEFINED_ID": "038560-EP-0014-EN-GB",
+      "STARTDATE": "2026-11-12 10:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Cybersecurity Awareness",
+      "USERDEFINED_ID": "068520-EP-0096-EN-GB",
+      "STARTDATE": "2026-11-12 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Transfer Impact Assessment in the European Parliament (TIA)",
+      "USERDEFINED_ID": "071681-EP-0005-EN-GB",
+      "STARTDATE": "2026-11-12 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "The Multiannual Financial Framework (MFF)",
+      "USERDEFINED_ID": "077514-EP-0002-EN-GB",
+      "STARTDATE": "2026-11-12 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "INES",
+      "CREATOR_FIRSTNAME": "INES"
+    },
+    {
+      "NAME": "Data Visualisation Training with D3 Overview",
+      "USERDEFINED_ID": "057423-EP-0086-EN-GB",
+      "STARTDATE": "2026-11-13 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "NIKOLINA",
+      "CREATOR_FIRSTNAME": "NIKOLINA"
+    },
+    {
+      "NAME": "Cybersecurity Management Awareness for EP Senior Officials",
+      "USERDEFINED_ID": "079377-EP-0002-EN-GB",
+      "STARTDATE": "2026-11-13 10:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "KAJA",
+      "CREATOR_FIRSTNAME": "KAJA"
+    },
+    {
+      "NAME": "Enhance your video-editing skills with Clipchamp",
+      "USERDEFINED_ID": "078826-EP-0002-EN-GB",
+      "STARTDATE": "2026-11-13 10:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELENA",
+      "CREATOR_FIRSTNAME": "ELENA"
+    },
+    {
+      "NAME": "Unconscious bias - going beyond assumptions",
+      "USERDEFINED_ID": "023525-EP-0020-EN-GB",
+      "STARTDATE": "2026-11-16 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "Voice Techniques for Clear Communication",
+      "USERDEFINED_ID": "071623-EP-0017-EN-GB",
+      "STARTDATE": "2026-11-16 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "EP Powers and EU policies",
+      "USERDEFINED_ID": "030741-EP-0016-EN-GB",
+      "STARTDATE": "2026-11-16 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "ANGELA"
+    },
+    {
+      "NAME": "Coaching Skills for Effective Leadership",
+      "USERDEFINED_ID": "079787-EP-0002-EN-GB",
+      "STARTDATE": "2026-11-16 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIVIANA",
+      "CREATOR_FIRSTNAME": "VIVIANA"
+    },
+    {
+      "NAME": "Back to School and Back to University",
+      "USERDEFINED_ID": "038320-EP-0048-EN-GB",
+      "STARTDATE": "2026-11-16 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALESSANDRA",
+      "CREATOR_FIRSTNAME": "PAVLINA"
+    },
+    {
+      "NAME": "Power BI Desktop - Introduction",
+      "USERDEFINED_ID": "069204-EP-0020-EN-GB",
+      "STARTDATE": "2026-11-16 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Kick-start your competition preparation",
+      "USERDEFINED_ID": "071483-EP-0011-EN-GB",
+      "STARTDATE": "2026-11-16 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "KAREN",
+      "CREATOR_FIRSTNAME": "KAREN"
+    },
+    {
+      "NAME": "Mental Health First Aid course (for managers of the Ombudsman)",
+      "USERDEFINED_ID": "031467-EP-0054-EN-GB",
+      "STARTDATE": "2026-11-16 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "How to facilitate online",
+      "USERDEFINED_ID": "070784-EP-0020-EN-GB",
+      "STARTDATE": "2026-11-16 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "PHILIPP",
+      "CREATOR_FIRSTNAME": "PHILIPP"
+    },
+    {
+      "NAME": "Teambuilding - DG TRAD Directorate B",
+      "USERDEFINED_ID": "080221-EP-0001-EN-GB",
+      "STARTDATE": "2026-11-16 10:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALIX",
+      "CREATOR_FIRSTNAME": "ALIX"
+    },
+    {
+      "NAME": "Guided tours of the European Parliament Contemporary Art Collection",
+      "USERDEFINED_ID": "062402-EP-0039-FR-FR",
+      "STARTDATE": "2026-11-16 11:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIA CAROLA",
+      "CREATOR_FIRSTNAME": "MARIA CAROLA"
+    },
+    {
+      "NAME": "Jean Monnet Academy - seminar for Assistants",
+      "USERDEFINED_ID": "026504-EP-0015-EN-GB",
+      "STARTDATE": "2026-11-16 12:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "GÉRALDINE",
+      "CREATOR_FIRSTNAME": "BENEDETTA"
+    },
+    {
+      "NAME": "EU Delegated and Implementing Acts at a glance",
+      "USERDEFINED_ID": "031102-EP-0015-EN-GB",
+      "STARTDATE": "2026-11-17 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANGELA",
+      "CREATOR_FIRSTNAME": "ANGELA"
+    },
+    {
+      "NAME": "Rules of Procedure",
+      "USERDEFINED_ID": "031103-EP-0019-EN-GB",
+      "STARTDATE": "2026-11-17 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANGELA",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "HEAT Training for EP staff",
+      "USERDEFINED_ID": "027336-EP-0019-EN-GB",
+      "STARTDATE": "2026-11-17 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "INES",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "EU Law for non-lawyers",
+      "USERDEFINED_ID": "030740-EP-0017-EN-GB",
+      "STARTDATE": "2026-11-17 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANGELA",
+      "CREATOR_FIRSTNAME": "ANGELA"
+    },
+    {
+      "NAME": "Introduction aux marchés publics, aspects financiers",
+      "USERDEFINED_ID": "023441-EP-0044-FR-FR",
+      "STARTDATE": "2026-11-17 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "Enhancing your leadership skills",
+      "USERDEFINED_ID": "058125-EP-0054-EN-GB",
+      "STARTDATE": "2026-11-17 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ENRICO",
+      "CREATOR_FIRSTNAME": "ENRICO"
+    },
+    {
+      "NAME": "Brand Guidelines for the European Parliament's Administration: General Training - Interactive workshop",
+      "USERDEFINED_ID": "053043-EP-0055-EN-GB",
+      "STARTDATE": "2026-11-17 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Introduction to public contracts - legal aspects",
+      "USERDEFINED_ID": "055040-EP-0019-EN-GB",
+      "STARTDATE": "2026-11-17 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "Staff Regulation training",
+      "USERDEFINED_ID": "073702-EP-0005-EN-GB",
+      "STARTDATE": "2026-11-17 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALIX",
+      "CREATOR_FIRSTNAME": "ALIX"
+    },
+    {
+      "NAME": "Intensive financial training for newly appointed middle and senior managers",
+      "USERDEFINED_ID": "067540-EP-0004-EN-GB",
+      "STARTDATE": "2026-11-17 10:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "Guided tours of the European Parliament Contemporary Art Collection",
+      "USERDEFINED_ID": "062402-EP-0034-EN-GB",
+      "STARTDATE": "2026-11-17 12:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIA CAROLA",
+      "CREATOR_FIRSTNAME": "MARIA CAROLA"
+    },
+    {
+      "NAME": "Essentials of Management and Ethical Leadership in the EP",
+      "USERDEFINED_ID": "053663-EP-0074-EN-GB",
+      "STARTDATE": "2026-11-18 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIVIANA",
+      "CREATOR_FIRSTNAME": "VIVIANA"
+    },
+    {
+      "NAME": "SharePoint for End Users",
+      "USERDEFINED_ID": "065420-EP-0022-EN-GB",
+      "STARTDATE": "2026-11-18 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Entry-Level Participatory Leadership Training",
+      "USERDEFINED_ID": "059621-EP-0004-EN-GB",
+      "STARTDATE": "2026-11-18 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "KAREN",
+      "CREATOR_FIRSTNAME": "KAREN"
+    },
+    {
+      "NAME": "What you need to know about Economics (and were afraid to ask)",
+      "USERDEFINED_ID": "024107-EP-0035-EN-GB",
+      "STARTDATE": "2026-11-18 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Voice Techniques for Clear Communication",
+      "USERDEFINED_ID": "071623-EP-0014-EN-GB",
+      "STARTDATE": "2026-11-18 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Budgetary cycle and budget implementation",
+      "USERDEFINED_ID": "023424-EP-0057-EN-GB",
+      "STARTDATE": "2026-11-18 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "FMS Management Reporting - SAP Analytics Cloud (SAC) advanced level guidance",
+      "USERDEFINED_ID": "074745-EP-0006-EN-GB",
+      "STARTDATE": "2026-11-18 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "INES",
+      "CREATOR_FIRSTNAME": "INES"
+    },
+    {
+      "NAME": "The e-signature for everyone",
+      "USERDEFINED_ID": "058801-EP-0024-EN-GB",
+      "STARTDATE": "2026-11-18 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "SharePoint for Power Users",
+      "USERDEFINED_ID": "065422-EP-0022-EN-GB",
+      "STARTDATE": "2026-11-18 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Disinformation and beyond",
+      "USERDEFINED_ID": "078000-EP-0003-EN-GB",
+      "STARTDATE": "2026-11-18 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Leading without the title: developing your leadership influence",
+      "USERDEFINED_ID": "072349-EP-0002-EN-GB",
+      "STARTDATE": "2026-11-18 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "VESELINA",
+      "CREATOR_FIRSTNAME": "VESELINA"
+    },
+    {
+      "NAME": "Listen, speak and support as a mentor",
+      "USERDEFINED_ID": "065992-EP-0020-EN-GB",
+      "STARTDATE": "2026-11-19 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "KAJA",
+      "CREATOR_FIRSTNAME": "FRANZISKA"
+    },
+    {
+      "NAME": "Assessing What Matters: Conducting Insightful Interviews on EP Core Competencies",
+      "USERDEFINED_ID": "071071-EP-0007-EN-GB",
+      "STARTDATE": "2026-11-19 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "KATRIN",
+      "CREATOR_FIRSTNAME": "KATRIN"
+    },
+    {
+      "NAME": "GEDA Online Course",
+      "USERDEFINED_ID": "023489-EP-0113-EN-GB",
+      "STARTDATE": "2026-11-19 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Low and middle value contracts - how to manage negotiated procedures",
+      "USERDEFINED_ID": "023442-EP-0018-EN-GB",
+      "STARTDATE": "2026-11-19 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "Generative AI Advanced with EP GenAI Hub",
+      "USERDEFINED_ID": "075286-EP-0012-EN-GB",
+      "STARTDATE": "2026-11-19 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "EU Civil Service Law",
+      "USERDEFINED_ID": "029382-EP-0542-EN-GB",
+      "STARTDATE": "2026-11-19 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "BLANCA",
+      "CREATOR_FIRSTNAME": "BLANCA"
+    },
+    {
+      "NAME": "Adobe Acrobat Pro",
+      "USERDEFINED_ID": "035842-EP-0030-EN-GB",
+      "STARTDATE": "2026-11-19 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "FMS Management Reporting - SAP Analytics Cloud (SAC) advanced level guidance",
+      "USERDEFINED_ID": "074745-EP-0005-EN-GB",
+      "STARTDATE": "2026-11-19 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "INES",
+      "CREATOR_FIRSTNAME": "INES"
+    },
+    {
+      "NAME": "How to develop professionally - Your skills & motivations — 360° View",
+      "USERDEFINED_ID": "023474-EP-0025-EN-GB",
+      "STARTDATE": "2026-11-19 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "PHILIPP",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Essentials of data protection in the European Parliament",
+      "USERDEFINED_ID": "058680-EP-0019-EN-GB",
+      "STARTDATE": "2026-11-19 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "PHILIPP",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Team activity - Treasure Hunt at the Museum (XPOL Unit, EPRS)",
+      "USERDEFINED_ID": "070651-EP-0012-EN-GB",
+      "STARTDATE": "2026-11-19 10:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Team activity - Treasure Hunt at the Museum (XPOL Unit, EPRS)",
+      "USERDEFINED_ID": "070651-EP-0013-EN-GB",
+      "STARTDATE": "2026-11-19 10:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Generative AI Advanced with EP GenAI Hub",
+      "USERDEFINED_ID": "075286-EP-0013-EN-GB",
+      "STARTDATE": "2026-11-19 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Data protection in the age of AI",
+      "USERDEFINED_ID": "071260-EP-0006-EN-GB",
+      "STARTDATE": "2026-11-19 14:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Corridors, Chambers and Stories: Tour of the European Parliament in Brussels for APAs",
+      "USERDEFINED_ID": "070511-EP-0013-EN-GB",
+      "STARTDATE": "2026-11-19 16:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALESSANDRA",
+      "CREATOR_FIRSTNAME": "ALESSANDRA"
+    },
+    {
+      "NAME": "Secure the data on your private devices Android",
+      "USERDEFINED_ID": "078868-EP-0001-EN-GB",
+      "STARTDATE": "2026-11-19 16:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELENA",
+      "CREATOR_FIRSTNAME": "ELENA"
+    },
+    {
+      "NAME": "Update in internal medecine",
+      "USERDEFINED_ID": "029382-EP-0543-EN-GB",
+      "STARTDATE": "2026-11-20 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "BLANCA",
+      "CREATOR_FIRSTNAME": "BLANCA"
+    },
+    {
+      "NAME": "How to develop professionally - Your career path — Self-reflection",
+      "USERDEFINED_ID": "023475-EP-0025-EN-GB",
+      "STARTDATE": "2026-11-20 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "ANGELA"
+    },
+    {
+      "NAME": "Secure the data on your private devices iPhone",
+      "USERDEFINED_ID": "078871-EP-0001-EN-GB",
+      "STARTDATE": "2026-11-20 10:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELENA",
+      "CREATOR_FIRSTNAME": "ELENA"
+    },
+    {
+      "NAME": "EP Talks: How Crises and Emergencies Change the Way the EU Works",
+      "USERDEFINED_ID": "058661-EP-0029-EN-GB",
+      "STARTDATE": "2026-11-20 12:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Introduction to EU Learn(Copy)",
+      "USERDEFINED_ID": "062282-EP-0032-EN-GB",
+      "STARTDATE": "2026-11-20 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Introduction to EU Learn",
+      "USERDEFINED_ID": "062282-EP-0030-EN-GB",
+      "STARTDATE": "2026-11-20 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "PHILIPP",
+      "CREATOR_FIRSTNAME": "PHILIPP"
+    },
+    {
+      "NAME": "Project Management - Artefacts, Tools & Techniques",
+      "USERDEFINED_ID": "063004-EP-0009-EN-GB",
+      "STARTDATE": "2026-11-23 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "AI initiatives and tools at the EP",
+      "USERDEFINED_ID": "078820-EP-0002-EN-GB",
+      "STARTDATE": "2026-11-23 10:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELENA",
+      "CREATOR_FIRSTNAME": "ELENA"
+    },
+    {
+      "NAME": "Guided tours of the European Parliament Contemporary Art Collection",
+      "USERDEFINED_ID": "062402-EP-0040-FR-FR",
+      "STARTDATE": "2026-11-23 12:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIA CAROLA",
+      "CREATOR_FIRSTNAME": "MARIA CAROLA"
+    },
+    {
+      "NAME": "Jean Monnet Academy - seminar for Administrators",
+      "USERDEFINED_ID": "028259-EP-0014-EN-GB",
+      "STARTDATE": "2026-11-23 12:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "BENEDETTA",
+      "CREATOR_FIRSTNAME": "BENEDETTA"
+    },
+    {
+      "NAME": "Kick-start your competition preparation (FR)",
+      "USERDEFINED_ID": "071483-EP-0009-EN-GB",
+      "STARTDATE": "2026-11-25 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "KAREN",
+      "CREATOR_FIRSTNAME": "KAREN"
+    },
+    {
+      "NAME": "Dealing with VAT exemption in the EP",
+      "USERDEFINED_ID": "063400-EP-0011-EN-GB",
+      "STARTDATE": "2026-11-25 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "Sanctions in the EU's External Relations",
+      "USERDEFINED_ID": "057423-EP-0084-EN-GB",
+      "STARTDATE": "2026-11-26 08:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "NIKOLINA",
+      "CREATOR_FIRSTNAME": "NIKOLINA"
+    },
+    {
+      "NAME": "Team activity - Treasure Hunt at the Museum (DG PRES, Transparency Unit)",
+      "USERDEFINED_ID": "070651-EP-0010-EN-GB",
+      "STARTDATE": "2026-11-26 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "FMS for Financial initiating agents and ex ante verifiers",
+      "USERDEFINED_ID": "025096-EP-0056-EN-GB",
+      "STARTDATE": "2026-11-26 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "ERA - Sanctions in the EU’s External Relations",
+      "USERDEFINED_ID": "058125-EP-0058-EN-GB",
+      "STARTDATE": "2026-11-26 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ENRICO",
+      "CREATOR_FIRSTNAME": "ENRICO"
+    },
+    {
+      "NAME": "FMS for Reception agents",
+      "USERDEFINED_ID": "033160-EP-0029-EN-GB",
+      "STARTDATE": "2026-11-26 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Service Excellence and Professional Communication- Customer Care",
+      "USERDEFINED_ID": "079421-EP-0001-EN-GB",
+      "STARTDATE": "2026-11-27 08:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "INES",
+      "CREATOR_FIRSTNAME": "INES"
+    },
+    {
+      "NAME": "Ten things you need to know about the European Parliament",
+      "USERDEFINED_ID": "054231-EP-0026-EN-GB",
+      "STARTDATE": "2026-11-27 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALESSANDRA",
+      "CREATOR_FIRSTNAME": "ALESSANDRA"
+    },
+    {
+      "NAME": "Learn to collaborate on Canva",
+      "USERDEFINED_ID": "078827-EP-0001-EN-GB",
+      "STARTDATE": "2026-11-27 10:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELENA",
+      "CREATOR_FIRSTNAME": "ELENA"
+    },
+    {
+      "NAME": "Public speaking : catching and keeping your audience attention",
+      "USERDEFINED_ID": "071661-EP-0011-EN-GB",
+      "STARTDATE": "2026-11-30 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "ERA -  Recent Case Law of the CJEU and ECtHR on Privacy and Data Protection",
+      "USERDEFINED_ID": "058125-EP-0059-EN-GB",
+      "STARTDATE": "2026-11-30 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ENRICO",
+      "CREATOR_FIRSTNAME": "ENRICO"
+    },
+    {
+      "NAME": "Cybersecurity Awareness",
+      "USERDEFINED_ID": "068520-EP-0094-EN-GB",
+      "STARTDATE": "2026-11-30 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIE",
+      "CREATOR_FIRSTNAME": "Meliina"
+    },
+    {
+      "NAME": "Legislating for the European Union",
+      "USERDEFINED_ID": "023500-EP-0052-EN-GB",
+      "STARTDATE": "2026-11-30 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Mental Health First Aid course",
+      "USERDEFINED_ID": "031467-EP-0052-EN-GB",
+      "STARTDATE": "2026-11-30 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "Guided tours of the European Parliament Contemporary Art Collection",
+      "USERDEFINED_ID": "062402-EP-0041-EN-GB",
+      "STARTDATE": "2026-11-30 12:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIA CAROLA",
+      "CREATOR_FIRSTNAME": "MARIA CAROLA"
+    },
+    {
+      "NAME": "[FR] Jean Monnet Academy - Our House",
+      "USERDEFINED_ID": "028258-EP-0023-EN-GB",
+      "STARTDATE": "2026-11-30 12:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "GÉRALDINE",
+      "CREATOR_FIRSTNAME": "BENEDETTA"
+    },
+    {
+      "NAME": "FMS for CAF agents",
+      "USERDEFINED_ID": "034180-EP-0027-EN-GB",
+      "STARTDATE": "2026-11-30 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Representation - 16 stories of women in the European Parliament",
+      "USERDEFINED_ID": "030180-EP-0044-EN-GB",
+      "STARTDATE": "2026-11-30 14:15:00.0",
+      "LASTUPDATER_FIRSTNAME": "KLARA",
+      "CREATOR_FIRSTNAME": "PAVLINA"
+    },
+    {
+      "NAME": "Back to School and Back to University",
+      "USERDEFINED_ID": "038320-EP-0049-EN-GB",
+      "STARTDATE": "2026-12-01 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALESSANDRA",
+      "CREATOR_FIRSTNAME": "PAVLINA"
+    },
+    {
+      "NAME": "Assurer un classement et un archivage efficaces",
+      "USERDEFINED_ID": "029382-EP-0507-EN-GB",
+      "STARTDATE": "2026-12-01 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "BLANCA"
+    },
+    {
+      "NAME": "Ordinary Legislative Procedure - Walkthrough the OLP / COD procedure - 1st reading - LEGIKS",
+      "USERDEFINED_ID": "073440-EP-0007-EN-GB",
+      "STARTDATE": "2026-12-01 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CHRISTINE",
+      "CREATOR_FIRSTNAME": "CHRISTINE"
+    },
+    {
+      "NAME": "Professional supervision for confidential counsellors",
+      "USERDEFINED_ID": "077480-EP-0007-EN-GB",
+      "STARTDATE": "2026-12-01 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "Unconscious bias - going beyond assumptions",
+      "USERDEFINED_ID": "023525-EP-0021-EN-GB",
+      "STARTDATE": "2026-12-01 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "The European Affordable Housing Plan (DG TRAD)",
+      "USERDEFINED_ID": "076120-EP-0002-EN-GB",
+      "STARTDATE": "2026-12-01 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANGELA",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Legislative Amendments from A to Z: drafting, tabling, voting",
+      "USERDEFINED_ID": "029006-EP-0021-EN-GB",
+      "STARTDATE": "2026-12-01 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANGELA",
+      "CREATOR_FIRSTNAME": "ANGELA"
+    },
+    {
+      "NAME": "Assessing What Matters: Conducting Insightful Interviews on EP Core Competencies",
+      "USERDEFINED_ID": "071070-EP-0030-EN-GB",
+      "STARTDATE": "2026-12-01 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "KATRIN",
+      "CREATOR_FIRSTNAME": "KATRIN"
+    },
+    {
+      "NAME": "Power BI Desktop - Introduction",
+      "USERDEFINED_ID": "069204-EP-0021-EN-GB",
+      "STARTDATE": "2026-12-01 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Prendre la parole en public - DG LINC",
+      "USERDEFINED_ID": "078581-EP-0001-FR-FR",
+      "STARTDATE": "2026-12-01 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "FMS operational reports",
+      "USERDEFINED_ID": "025102-EP-0047-EN-GB",
+      "STARTDATE": "2026-12-01 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "How to develop professionally - AI to support your professional growth",
+      "USERDEFINED_ID": "023476-EP-0026-EN-GB",
+      "STARTDATE": "2026-12-01 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "ANGELA"
+    },
+    {
+      "NAME": "Increasing team collaboration: how effective communication can help (BRU)",
+      "USERDEFINED_ID": "037500-EP-0021-EN-GB",
+      "STARTDATE": "2026-12-01 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "VESELINA",
+      "CREATOR_FIRSTNAME": "VESELINA"
+    },
+    {
+      "NAME": "Preventing harassment",
+      "USERDEFINED_ID": "023230-EP-0048-EN-GB",
+      "STARTDATE": "2026-12-01 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "Privacy risks and Data Protection Impact Assessment",
+      "USERDEFINED_ID": "071133-EP-0008-EN-GB",
+      "STARTDATE": "2026-12-01 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Professional supervision for confidential counsellors",
+      "USERDEFINED_ID": "077480-EP-0008-EN-GB",
+      "STARTDATE": "2026-12-01 13:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIKTORIYA",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "Prendre la parole en public - DG LINC",
+      "USERDEFINED_ID": "078581-EP-0002-FR-FR",
+      "STARTDATE": "2026-12-01 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Risk Assessment and DPIA - workshop",
+      "USERDEFINED_ID": "071135-EP-0008-EN-GB",
+      "STARTDATE": "2026-12-01 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "MS Excel – Managing Your Data Lists",
+      "USERDEFINED_ID": "022383-EP-0009-EN-GB",
+      "STARTDATE": "2026-12-02 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "Meliina"
+    },
+    {
+      "NAME": "Rules of Procedure",
+      "USERDEFINED_ID": "031103-EP-0023-EN-GB",
+      "STARTDATE": "2026-12-02 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Travailleur désigné en matière de sécurité et de santé au travail",
+      "USERDEFINED_ID": "029382-EP-0544-EN-GB",
+      "STARTDATE": "2026-12-02 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "BLANCA",
+      "CREATOR_FIRSTNAME": "BLANCA"
+    },
+    {
+      "NAME": "Essentials of data protection in the European Parliament",
+      "USERDEFINED_ID": "023379-EP-0057-EN-GB",
+      "STARTDATE": "2026-12-02 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Increasing team collaboration: how effective communication can help (LUX)",
+      "USERDEFINED_ID": "037500-EP-0022-EN-GB",
+      "STARTDATE": "2026-12-02 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "VESELINA",
+      "CREATOR_FIRSTNAME": "VESELINA"
+    },
+    {
+      "NAME": "ITEC Support unit team building",
+      "USERDEFINED_ID": "079290-EP-0001-EN-GB",
+      "STARTDATE": "2026-12-02 10:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "MS Word – Working with Long Documents",
+      "USERDEFINED_ID": "022379-EP-0009-EN-GB",
+      "STARTDATE": "2026-12-02 13:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "Meliina"
+    },
+    {
+      "NAME": "ACT-PERDA  - data breach simulation scenario",
+      "USERDEFINED_ID": "078128-EP-0002-EN-GB",
+      "STARTDATE": "2026-12-02 14:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Service Excellence and Professional Communication- Customer Care",
+      "USERDEFINED_ID": "079421-EP-0002-EN-GB",
+      "STARTDATE": "2026-12-03 08:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "INES",
+      "CREATOR_FIRSTNAME": "INES"
+    },
+    {
+      "NAME": "Asylum, Migration and Border Management Law",
+      "USERDEFINED_ID": "031203-EP-0007-EN-GB",
+      "STARTDATE": "2026-12-03 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANGELA",
+      "CREATOR_FIRSTNAME": "Functional"
+    },
+    {
+      "NAME": "Navigate your emotional intelligence",
+      "USERDEFINED_ID": "062202-EP-0022-EN-GB",
+      "STARTDATE": "2026-12-03 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "KAREN",
+      "CREATOR_FIRSTNAME": "KAREN"
+    },
+    {
+      "NAME": "The Leadership Lounge: Leadership under pressure - finding clarity when it matters most",
+      "USERDEFINED_ID": "052074-EP-0027-EN-GB",
+      "STARTDATE": "2026-12-03 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "VESELINA",
+      "CREATOR_FIRSTNAME": "VESELINA"
+    },
+    {
+      "NAME": "Service Excellence and Professional Communication- Customer Care",
+      "USERDEFINED_ID": "079421-EP-0003-EN-GB",
+      "STARTDATE": "2026-12-04 08:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "INES",
+      "CREATOR_FIRSTNAME": "INES"
+    },
+    {
+      "NAME": "Cybersecurity training for IT Security Correspondents",
+      "USERDEFINED_ID": "069421-EP-0036-EN-GB",
+      "STARTDATE": "2026-12-04 09:45:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELENA",
+      "CREATOR_FIRSTNAME": "ELENA"
+    },
+    {
+      "NAME": "Peer learning: prepare for your next job in the EP",
+      "USERDEFINED_ID": "065101-EP-0014-EN-GB",
+      "STARTDATE": "2026-12-04 10:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "EP Talks:  Making Smarter Decisions in the Age of AI",
+      "USERDEFINED_ID": "058661-EP-0030-EN-GB",
+      "STARTDATE": "2026-12-04 12:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "European Parliament's Induction Programme",
+      "USERDEFINED_ID": "071127-EP-0013-EN-GB",
+      "STARTDATE": "2026-12-07 08:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "Ana"
+    },
+    {
+      "NAME": "Cybersecurity Awareness",
+      "USERDEFINED_ID": "068520-EP-0097-EN-GB",
+      "STARTDATE": "2026-12-07 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Fostering a positive workplace at the EP - Managing staff ethically and preventing harassment situations",
+      "USERDEFINED_ID": "053823-EP-0060-EN-GB",
+      "STARTDATE": "2026-12-07 09:15:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIVIANA",
+      "CREATOR_FIRSTNAME": "VIVIANA"
+    },
+    {
+      "NAME": "Tips and tricks for prompting with AI",
+      "USERDEFINED_ID": "078870-EP-0002-EN-GB",
+      "STARTDATE": "2026-12-07 11:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELENA",
+      "CREATOR_FIRSTNAME": "ELENA"
+    },
+    {
+      "NAME": "Jean Monnet Academy - seminar for 20+ officials",
+      "USERDEFINED_ID": "038600-EP-0016-EN-GB",
+      "STARTDATE": "2026-12-07 12:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "BENEDETTA",
+      "CREATOR_FIRSTNAME": "BENEDETTA"
+    },
+    {
+      "NAME": "Ordinary Legislative Procedure - Walkthrough the OLP / COD procedure - 1st reading - LEGIKS",
+      "USERDEFINED_ID": "073440-EP-0008-EN-GB",
+      "STARTDATE": "2026-12-08 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CHRISTINE",
+      "CREATOR_FIRSTNAME": "CHRISTINE"
+    },
+    {
+      "NAME": "Cycle budgétaire et exécution du budget",
+      "USERDEFINED_ID": "023424-EP-0058-FR-FR",
+      "STARTDATE": "2026-12-08 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "Budgetary cycle and budget implementation",
+      "USERDEFINED_ID": "023424-EP-0060-EN-GB",
+      "STARTDATE": "2026-12-08 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "Assessing What Matters: Conducting Insightful Interviews on EP Core Competencies",
+      "USERDEFINED_ID": "071070-EP-0031-EN-GB",
+      "STARTDATE": "2026-12-08 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "KATRIN",
+      "CREATOR_FIRSTNAME": "KATRIN"
+    },
+    {
+      "NAME": "Personal Data Breaches - identify and act",
+      "USERDEFINED_ID": "061923-EP-0011-EN-GB",
+      "STARTDATE": "2026-12-08 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "ANNICA",
+      "CREATOR_FIRSTNAME": "ANNICA"
+    },
+    {
+      "NAME": "Preventing harassment (for DG SAFE, Strassbourg)",
+      "USERDEFINED_ID": "070361-EP-0005-EN-GB",
+      "STARTDATE": "2026-12-08 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "Ana",
+      "CREATOR_FIRSTNAME": "VIKTORIYA"
+    },
+    {
+      "NAME": "Data Management",
+      "USERDEFINED_ID": "072384-EP-0016-EN-GB",
+      "STARTDATE": "2026-12-09 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Budgetary cycle and budget implementation",
+      "USERDEFINED_ID": "023424-EP-0059-EN-GB",
+      "STARTDATE": "2026-12-09 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "JOANNA",
+      "CREATOR_FIRSTNAME": "JOANNA"
+    },
+    {
+      "NAME": "Sicherheitsbeauftragter für Sicherheit und Gesundheit am Arbeitsplatz",
+      "USERDEFINED_ID": "029382-EP-0539-EN-GB",
+      "STARTDATE": "2026-12-09 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "BLANCA",
+      "CREATOR_FIRSTNAME": "BLANCA"
+    },
+    {
+      "NAME": "Data Management",
+      "USERDEFINED_ID": "072384-EP-0017-EN-GB",
+      "STARTDATE": "2026-12-10 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "GEDA Online Course",
+      "USERDEFINED_ID": "023489-EP-0114-EN-GB",
+      "STARTDATE": "2026-12-10 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Inclusive leadership at the European Parliament",
+      "USERDEFINED_ID": "070515-EP-0005-EN-GB",
+      "STARTDATE": "2026-12-10 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "VESELINA",
+      "CREATOR_FIRSTNAME": "VESELINA"
+    },
+    {
+      "NAME": "Guided tours of the European Parliament Contemporary Art Collection",
+      "USERDEFINED_ID": "062402-EP-0035-EN-GB",
+      "STARTDATE": "2026-12-10 16:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "MARIA CAROLA",
+      "CREATOR_FIRSTNAME": "MARIA CAROLA"
+    },
+    {
+      "NAME": "Project Management - Artefacts, Tools & Techniques",
+      "USERDEFINED_ID": "055741-EP-0006-EN-GB",
+      "STARTDATE": "2026-12-14 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Introduction to EU Learn",
+      "USERDEFINED_ID": "062282-EP-0031-EN-GB",
+      "STARTDATE": "2026-12-14 11:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "PHILIPP",
+      "CREATOR_FIRSTNAME": "PHILIPP"
+    },
+    {
+      "NAME": "Introduction to transactional analysis",
+      "USERDEFINED_ID": "029382-EP-0545-EN-GB",
+      "STARTDATE": "2026-12-15 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "BLANCA",
+      "CREATOR_FIRSTNAME": "BLANCA"
+    },
+    {
+      "NAME": "How to facilitate online",
+      "USERDEFINED_ID": "070784-EP-0021-EN-GB",
+      "STARTDATE": "2026-12-16 09:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "PHILIPP",
+      "CREATOR_FIRSTNAME": "PHILIPP"
+    },
+    {
+      "NAME": "Ten things you need to know about the European Parliament",
+      "USERDEFINED_ID": "054231-EP-0027-EN-GB",
+      "STARTDATE": "2026-12-17 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ALESSANDRA",
+      "CREATOR_FIRSTNAME": "ALESSANDRA"
+    },
+    {
+      "NAME": "Fostering a positive workplace at the EP - Managing staff ethically and preventing harassment situations",
+      "USERDEFINED_ID": "053823-EP-0061-EN-GB",
+      "STARTDATE": "2027-01-12 09:15:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIVIANA",
+      "CREATOR_FIRSTNAME": "VIVIANA"
+    },
+    {
+      "NAME": "Service Excellence and Professional Communication- Customer Care",
+      "USERDEFINED_ID": "079421-EP-0004-EN-GB",
+      "STARTDATE": "2027-01-22 08:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "INES",
+      "CREATOR_FIRSTNAME": "INES"
+    },
+    {
+      "NAME": "Public speaking : catching and keeping your audience attention - online",
+      "USERDEFINED_ID": "079784-EP-0001-EN-GB",
+      "STARTDATE": "2027-01-25 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Data Management",
+      "USERDEFINED_ID": "072384-EP-0018-EN-GB",
+      "STARTDATE": "2027-01-25 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Data Management",
+      "USERDEFINED_ID": "072384-EP-0019-EN-GB",
+      "STARTDATE": "2027-01-26 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CARLOS",
+      "CREATOR_FIRSTNAME": "CARLOS"
+    },
+    {
+      "NAME": "Fostering performance as a manager",
+      "USERDEFINED_ID": "071075-EP-0008-EN-GB",
+      "STARTDATE": "2027-01-27 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "VIVIANA",
+      "CREATOR_FIRSTNAME": "VIVIANA"
+    },
+    {
+      "NAME": "Service Excellence and Professional Communication- Customer Care",
+      "USERDEFINED_ID": "079421-EP-0006-EN-GB",
+      "STARTDATE": "2027-01-29 08:30:00.0",
+      "LASTUPDATER_FIRSTNAME": "INES",
+      "CREATOR_FIRSTNAME": "INES"
+    },
+    {
+      "NAME": "Coherence Pro en distanciel",
+      "USERDEFINED_ID": "029382-EP-0546-EN-GB",
+      "STARTDATE": "2027-01-29 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "BLANCA",
+      "CREATOR_FIRSTNAME": "BLANCA"
+    },
+    {
+      "NAME": "Ordinary Legislative Procedure - Walkthrough the OLP / COD procedure - 1st reading - LEGIKS",
+      "USERDEFINED_ID": "073440-EP-0009-EN-GB",
+      "STARTDATE": "2027-02-23 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CHRISTINE",
+      "CREATOR_FIRSTNAME": "CHRISTINE"
+    },
+    {
+      "NAME": "Ordinary Legislative Procedure - Walkthrough the OLP / COD procedure - 1st reading - LEGIKS",
+      "USERDEFINED_ID": "073440-EP-0010-EN-GB",
+      "STARTDATE": "2027-03-02 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "CHRISTINE",
+      "CREATOR_FIRSTNAME": "CHRISTINE"
+    },
+    {
+      "NAME": "VO Adaptation with Yella Umbrella",
+      "USERDEFINED_ID": "080346-EP-0005-EN-GB",
+      "STARTDATE": "2027-03-08 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "IOANNIS",
+      "CREATOR_FIRSTNAME": "IOANNIS"
+    },
+    {
+      "NAME": "15th HRcoreLAB Summit",
+      "USERDEFINED_ID": "029382-EP-0548-EN-GB",
+      "STARTDATE": "2027-03-10 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "BLANCA",
+      "CREATOR_FIRSTNAME": "BLANCA"
+    },
+    {
+      "NAME": "VO Adaptation with Yella Umbrella",
+      "USERDEFINED_ID": "080346-EP-0006-EN-GB",
+      "STARTDATE": "2027-03-10 09:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "IOANNIS",
+      "CREATOR_FIRSTNAME": "IOANNIS"
+    },
+    {
+      "NAME": "EP Missions Rules and eMiss application",
+      "USERDEFINED_ID": "058806-EP-0014-EN-GB",
+      "STARTDATE": "2027-03-17 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Règlement des missions au PE et application eMiss",
+      "USERDEFINED_ID": "058806-EP-0015-FR-FR",
+      "STARTDATE": "2027-03-17 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Règlement des missions au PE et application eMiss",
+      "USERDEFINED_ID": "058806-EP-0017-FR-FR",
+      "STARTDATE": "2027-06-09 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "EP Missions Rules and eMiss application",
+      "USERDEFINED_ID": "058806-EP-0016-EN-GB",
+      "STARTDATE": "2027-06-09 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "EP Missions Rules and eMiss application",
+      "USERDEFINED_ID": "058806-EP-0018-EN-GB",
+      "STARTDATE": "2027-09-22 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "Règlement des missions au PE et application eMiss",
+      "USERDEFINED_ID": "058806-EP-0019-FR-FR",
+      "STARTDATE": "2027-09-22 14:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "ELODIE",
+      "CREATOR_FIRSTNAME": "ELODIE"
+    },
+    {
+      "NAME": "This is the course name",
+      "USERDEFINED_ID": "064824-EP-0016-EN-GB",
+      "STARTDATE": "2029-02-27 08:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "PHILIPP",
+      "CREATOR_FIRSTNAME": "PHILIPP"
+    },
+    {
+      "NAME": "Test course template 100 slots in course available - Philipp Henningsen",
+      "USERDEFINED_ID": "076803-EP-0001-EN-GB",
+      "STARTDATE": "2030-04-14 08:00:00.0",
+      "LASTUPDATER_FIRSTNAME": "PHILIPP",
+      "CREATOR_FIRSTNAME": "PHILIPP"
+    }
+  ]
 }
