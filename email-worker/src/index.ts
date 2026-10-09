@@ -24,6 +24,7 @@ type Course = Record<PublicColumn, string>;
 
 interface Env {
   GITHUB_TOKEN: string;
+  FLUX_TODAY_GITHUB_TOKEN?: string;
   GITHUB_OWNER: string;
   GITHUB_REPO: string;
   GITHUB_BRANCH: string;
@@ -73,6 +74,41 @@ export default {
     }
 
     const parsed = await PostalMime.parse(message.raw);
+    if (parsed.subject?.trim().toUpperCase() === "FLUX TODAY ALP JSON") {
+      const jsonAttachment = parsed.attachments.find((item) =>
+        item.filename?.toLowerCase().endsWith(".json") || item.mimeType === "application/json",
+      );
+      const rawJson = jsonAttachment
+        ? new TextDecoder("utf-8").decode(jsonAttachment.content)
+        : parsed.text?.trim();
+
+      if (!rawJson) {
+        message.setReject("A JSON body or attachment is required.");
+        return;
+      }
+
+      let rows: unknown;
+      try {
+        rows = JSON.parse(rawJson);
+      } catch {
+        message.setReject("The message does not contain valid JSON.");
+        return;
+      }
+
+      const records = Array.isArray(rows)
+        ? rows
+        : (rows && typeof rows === "object" && Array.isArray((rows as { value?: unknown }).value)
+          ? (rows as { value: unknown[] }).value
+          : null);
+      if (!records) {
+        message.setReject("The ALP JSON must be an array or contain a value array.");
+        return;
+      }
+
+      await publishFluxToday(env, records);
+      return;
+    }
+
     const attachment = parsed.attachments.find((item) =>
       item.filename?.toLowerCase().endsWith(".csv") || item.mimeType === "text/csv",
     );
@@ -110,6 +146,56 @@ function selectColumns(rows: Record<string, string>[]): Course[] {
   return rows.map((row) => Object.fromEntries(
     PUBLIC_COLUMNS.map((column) => [column, row[column]?.trim() ?? ""]),
   ) as Course);
+}
+
+async function publishFluxToday(env: Env, records: unknown[]): Promise<void> {
+  if (!env.FLUX_TODAY_GITHUB_TOKEN) throw new Error("Flux Today GitHub token is not configured.");
+  const now = new Date();
+  const payload = JSON.stringify({
+    updatedAt: now.toISOString(),
+    rowCount: records.length,
+    records,
+  }, null, 2) + "\n";
+  const config = {
+    owner: "modulow",
+    repo: "Flux-Today",
+    branch: "main",
+    token: env.FLUX_TODAY_GITHUB_TOKEN,
+  };
+  await putGitHubFile(config, "public/data/latest.json", payload, `Update ALP data (${now.toISOString().slice(0, 10)})`);
+  const archivePath = `data/${now.getUTCFullYear()}/alp-${now.toISOString().replace(/[:.]/g, "-")}.json`;
+  await putGitHubFile(config, archivePath, payload, `Archive ALP data (${now.toISOString()})`);
+}
+
+async function putGitHubFile(
+  config: { owner: string; repo: string; branch: string; token: string },
+  path: string,
+  content: string,
+  message: string,
+): Promise<void> {
+  const endpoint = `https://api.github.com/repos/${encodeURIComponent(config.owner)}/${encodeURIComponent(config.repo)}/contents/${path.split("/").map(encodeURIComponent).join("/")}`;
+  const headers = {
+    Accept: "application/vnd.github+json",
+    Authorization: `Bearer ${config.token}`,
+    "X-GitHub-Api-Version": "2022-11-28",
+    "User-Agent": "Flux-Today-ALP-Bridge",
+  };
+  const current = await fetch(`${endpoint}?ref=${encodeURIComponent(config.branch)}`, { headers });
+  let sha: string | undefined;
+  if (current.ok) sha = ((await current.json()) as { sha: string }).sha;
+  else if (current.status !== 404) throw new Error(`GitHub read failed (${current.status}): ${await current.text()}`);
+
+  const bytes = new TextEncoder().encode(content);
+  let binary = "";
+  for (let offset = 0; offset < bytes.length; offset += 0x8000) {
+    binary += String.fromCharCode(...bytes.subarray(offset, offset + 0x8000));
+  }
+  const response = await fetch(endpoint, {
+    method: "PUT",
+    headers: { ...headers, "Content-Type": "application/json" },
+    body: JSON.stringify({ message, content: btoa(binary), branch: config.branch, ...(sha ? { sha } : {}) }),
+  });
+  if (!response.ok) throw new Error(`GitHub update failed (${response.status}): ${await response.text()}`);
 }
 
 function parseCsv(input: string): Record<string, string>[] {
